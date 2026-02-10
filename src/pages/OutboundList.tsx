@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState, useMemo } from 'react'
 import { useAuth } from '../hooks/useAuth'
 import { getOrders } from '../services/orderService'
 import { db } from '../services/db'
@@ -18,6 +18,7 @@ export default function OutboundList() {
   const [loading, setLoading] = useState(true)
   const [searchQuery, setSearchQuery] = useState('')
   const [currentPage, setCurrentPage] = useState(1)
+  const scrollPositionRef = useRef(0)
   const [isMetricsSticky, setIsMetricsSticky] = useState(false)
   const [isSearchFocused, setIsSearchFocused] = useState(false)
   const [activeFilters, setActiveFilters] = useState<{
@@ -142,8 +143,16 @@ export default function OutboundList() {
   }
 
   const handlePageChange = (newPage: number) => {
+    scrollPositionRef.current = window.scrollY
     setCurrentPage(newPage)
   }
+
+  // Restaurar scroll después del cambio de página (antes del paint)
+  useLayoutEffect(() => {
+    if (scrollPositionRef.current > 0) {
+      window.scrollTo(0, scrollPositionRef.current)
+    }
+  }, [currentPage])
 
   if (!session) return null
 
