@@ -143,7 +143,6 @@ export default function OutboundList() {
 
   const handlePageChange = (newPage: number) => {
     setCurrentPage(newPage)
-    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   if (!session) return null
