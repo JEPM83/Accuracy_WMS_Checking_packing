@@ -1,5 +1,4 @@
-import { useEffect, useState, useMemo } from 'react'
-import { flushSync } from 'react-dom'
+import { useEffect, useRef, useState, useMemo } from 'react'
 import { useAuth } from '../hooks/useAuth'
 import { getOrders } from '../services/orderService'
 import { db } from '../services/db'
@@ -142,12 +141,20 @@ export default function OutboundList() {
     setCurrentPage(1) // Resetear a primera página al buscar
   }
 
+  const gridContainerRef = useRef<HTMLDivElement>(null)
+
   const handlePageChange = (newPage: number) => {
-    const scrollY = window.scrollY
-    flushSync(() => {
-      setCurrentPage(newPage)
+    // Bloquear altura del contenedor para que el DOM no colapse al cambiar cards
+    if (gridContainerRef.current) {
+      gridContainerRef.current.style.minHeight = `${gridContainerRef.current.offsetHeight}px`
+    }
+    setCurrentPage(newPage)
+    // Liberar la altura después del paint
+    requestAnimationFrame(() => {
+      if (gridContainerRef.current) {
+        gridContainerRef.current.style.minHeight = ''
+      }
     })
-    window.scrollTo(0, scrollY)
   }
 
   if (!session) return null
@@ -475,8 +482,8 @@ export default function OutboundList() {
           )}
         </div>
       ) : (
-        <>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" style={{ overflowAnchor: 'none' }}>
+        <div ref={gridContainerRef}>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {paginatedOrders.map((order) => (
               <OrderCard key={order.orderId} order={order} />
             ))}
@@ -576,7 +583,7 @@ export default function OutboundList() {
               </div>
             </div>
           )}
-        </>
+        </div>
       )}
     </div>
   )
