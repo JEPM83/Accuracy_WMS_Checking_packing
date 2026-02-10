@@ -45,7 +45,7 @@ async function getLinesForSku(orderId: string, skuId: string): Promise<OrderLine
 async function autoSelectLine(
   orderId: string,
   skuId: string,
-  lote?: string,
+  _lote?: string,
   lineId?: string // Si se proporciona lineId específico, usar ese
 ): Promise<{ line: OrderLine | null; requiresSelection: boolean; availableLines?: OrderLine[] }> {
   let lines = await getLinesForSku(orderId, skuId)

@@ -14,7 +14,7 @@ interface CloseLabelModalProps {
 
 export default function CloseLabelModal({
   isOpen,
-  labelId,
+  labelId: _labelId,
   theoreticalWeight,
   onClose,
   onCancel,

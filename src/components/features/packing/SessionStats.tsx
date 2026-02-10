@@ -9,7 +9,7 @@ interface SessionStatsProps {
 }
 
 export default function SessionStats({
-  orderId,
+  orderId: _orderId,
   totalScans,
   completedLines,
   totalLines,

@@ -1,5 +1,5 @@
 import { db } from './db'
-import type { User, Sociedad, UserClient } from '../types'
+import type { User, Sociedad } from '../types'
 import { withDelay, DELAYS } from '../utils/delays'
 
 export interface AuthSession {

@@ -24,7 +24,7 @@ interface ViewScansModalProps {
 export default function ViewScansModal({
   isOpen,
   labelId,
-  labelStatus,
+  labelStatus: _labelStatus,
   onClose,
   onDeleteScan,
   onDeleteAllScans,

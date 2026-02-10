@@ -4,9 +4,10 @@ interface ChipProps {
   children: ReactNode
   variant?: 'default' | 'success' | 'warning' | 'danger' | 'info'
   size?: 'sm' | 'md'
+  className?: string
 }
 
-export default function Chip({ children, variant = 'default', size = 'md' }: ChipProps) {
+export default function Chip({ children, variant = 'default', size = 'md', className = '' }: ChipProps) {
   const variantClasses = {
     default: 'bg-accuracy-gray bg-opacity-20 text-accuracy-navy border border-accuracy-gray',
     success: 'bg-green-100 text-green-800 border border-green-300',
@@ -22,7 +23,7 @@ export default function Chip({ children, variant = 'default', size = 'md' }: Chi
 
   return (
     <span
-      className={`inline-flex items-center font-medium rounded-full ${variantClasses[variant]} ${sizeClasses[size]}`}
+      className={`inline-flex items-center font-medium rounded-full ${variantClasses[variant]} ${sizeClasses[size]} ${className}`}
     >
       {children}
     </span>

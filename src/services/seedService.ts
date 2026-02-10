@@ -29,7 +29,7 @@ export async function initializeDatabase() {
 
 export async function loadSeeds() {
   try {
-    await db.transaction('rw',
+    await db.transaction('rw', [
       db.users,
       db.userClients,
       db.clients,
@@ -39,7 +39,7 @@ export async function loadSeeds() {
       db.labels,
       db.scans,
       db.incidents,
-      async () => {
+    ], async () => {
         await db.users.bulkAdd(usersData as any)
         await db.userClients.bulkAdd(userClientsData as any)
         await db.clients.bulkAdd(clientsData as any)
@@ -63,7 +63,7 @@ export async function resetDemoData() {
     console.log('🔄 Reseteando datos de demostración...')
 
     console.log('📋 Paso 1: Limpiando tablas...')
-    await db.transaction('rw',
+    await db.transaction('rw', [
       db.users,
       db.userClients,
       db.clients,
@@ -74,7 +74,7 @@ export async function resetDemoData() {
       db.scans,
       db.incidents,
       db.settings,
-      async () => {
+    ], async () => {
         await db.users.clear()
         await db.userClients.clear()
         await db.clients.clear()

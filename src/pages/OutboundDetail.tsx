@@ -344,7 +344,7 @@ export default function OutboundDetail() {
   const handleReopenLabel = (labelId: string) => {
     authorization.requestAuthorization(
       'Reabrir etiqueta cerrada',
-      async (authorizedBy) => {
+      async (_authorizedBy) => {
         try {
           await reopenLabel(labelId)
           // Solo recargar etiquetas
@@ -399,7 +399,7 @@ export default function OutboundDetail() {
   const handleDeleteScan = (scanId: string) => {
     authorization.requestAuthorization(
       'Eliminar scan',
-      async (authorizedBy) => {
+      async (_authorizedBy) => {
         try {
           await deleteScan(scanId)
           // Recargar etiquetas y header (afecta progreso)
@@ -421,7 +421,7 @@ export default function OutboundDetail() {
 
     authorization.requestAuthorization(
       'Eliminar todos los scans',
-      async (authorizedBy) => {
+      async (_authorizedBy) => {
         try {
           await deleteAllScansFromLabel(labelForViewScans.labelId)
           // Recargar etiquetas y header (afecta progreso)
@@ -464,7 +464,7 @@ export default function OutboundDetail() {
     console.log('✅ Solicitando autorización para deshacer scan:', lastScanId)
     authorization.requestAuthorization(
       'Deshacer último scan',
-      async (authorizedBy) => {
+      async (_authorizedBy) => {
         try {
           console.log('🗑️ Eliminando scan:', lastScanId)
           await deleteScan(lastScanId)
@@ -789,7 +789,7 @@ export default function OutboundDetail() {
 
     authorization.requestAuthorization(
       'Reabrir pedido',
-      async (authorizedBy) => {
+      async (_authorizedBy) => {
         try {
           await reopenOrder(orderId, session.user.userId)
           toast.success('Pedido reabierto')

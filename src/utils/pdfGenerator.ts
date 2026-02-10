@@ -1,6 +1,6 @@
 import jsPDF from 'jspdf'
 import QRCode from 'qrcode'
-import type { LabelWithDetails, OrderWithDetails, Client } from '../types'
+import type { LabelWithDetails, OrderWithDetails } from '../types'
 import { formatearFecha, formatearPeso } from './formatters'
 import { withDelay, DELAYS } from './delays'
 
@@ -50,7 +50,6 @@ async function renderLabel(
   // Colores Accuracy
   const accuracyNavy = [0, 54, 95] // #00365f
   const accuracyMedium = [37, 120, 181] // #2578b5
-  const accuracyLight = [129, 207, 244] // #81cff4
 
   // Encabezado con color Accuracy
   pdf.setFillColor(accuracyMedium[0], accuracyMedium[1], accuracyMedium[2])

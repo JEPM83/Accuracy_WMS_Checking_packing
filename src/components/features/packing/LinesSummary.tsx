@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import type { OrderLineWithDetails } from '../../../types'
 import ProgressBar from '../../common/ProgressBar'
 import Button from '../../common/Button'

@@ -13,12 +13,6 @@ export default function OrderDrilldown({ order }: OrderDrilldownProps) {
     Chequeado: line.checkedQty,
   }))
 
-  // Datos para heatmap de etiquetas (simplificado como tabla)
-  const labelData = order.lines.reduce((acc: any[], line) => {
-    // Este es un placeholder - en una implementación real,
-    // necesitarías obtener los scans por etiqueta
-    return acc
-  }, [])
 
   return (
     <div className="space-y-6">

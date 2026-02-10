@@ -1,5 +1,5 @@
 import { db } from './db'
-import type { Label, LabelStatus, LabelWithDetails, Scan } from '../types'
+import type { Label, LabelWithDetails, Scan } from '../types'
 import { calcularPesoTeorico, validarDiferenciaPeso } from '../utils/validators'
 import { withDelay, DELAYS } from '../utils/delays'
 
@@ -13,7 +13,7 @@ function generateLabelId(): string {
 /**
  * Crea una nueva etiqueta para un pedido
  */
-export async function createLabel(orderId: string, userId: string): Promise<Label> {
+export async function createLabel(orderId: string, _userId: string): Promise<Label> {
   return withDelay(async () => {
     const order = await db.orders.get(orderId)
     if (!order) {

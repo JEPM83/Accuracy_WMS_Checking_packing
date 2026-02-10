@@ -1,6 +1,5 @@
 import { useNavigate } from 'react-router-dom'
 import type { OrderWithDetails } from '../../../types'
-import Card from '../../common/Card'
 import Chip from '../../common/Chip'
 import TrafficLight from '../../common/TrafficLight'
 import ProgressBar from '../../common/ProgressBar'

@@ -12,7 +12,7 @@ const ITEMS_PER_PAGE = 9
 
 export default function OutboundList() {
   const { session } = useAuth()
-  const [orders, setOrders] = useState<OrderWithDetails[]>([])
+  const [, setOrders] = useState<OrderWithDetails[]>([])
   const [filteredOrders, setFilteredOrders] = useState<OrderWithDetails[]>([])
   const [clients, setClients] = useState<Client[]>([])
   const [loading, setLoading] = useState(true)
@@ -164,9 +164,6 @@ export default function OutboundList() {
     handleFilter({})
     setCurrentPage(1)
   }
-
-  // Contar filtros activos
-  const activeFiltersCount = Object.values(activeFilters).filter(Boolean).length
 
   return (
     <div>

@@ -2,7 +2,6 @@ import { db } from './db'
 import type {
   Order,
   OrderWithDetails,
-  OrderLine,
   OrderLineWithDetails,
   Sociedad,
   OrderStatus,
