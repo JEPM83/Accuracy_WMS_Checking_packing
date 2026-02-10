@@ -1,4 +1,5 @@
-import { useEffect, useLayoutEffect, useRef, useState, useMemo } from 'react'
+import { useEffect, useState, useMemo } from 'react'
+import { flushSync } from 'react-dom'
 import { useAuth } from '../hooks/useAuth'
 import { getOrders } from '../services/orderService'
 import { db } from '../services/db'
@@ -18,7 +19,6 @@ export default function OutboundList() {
   const [loading, setLoading] = useState(true)
   const [searchQuery, setSearchQuery] = useState('')
   const [currentPage, setCurrentPage] = useState(1)
-  const scrollPositionRef = useRef(0)
   const [isMetricsSticky, setIsMetricsSticky] = useState(false)
   const [isSearchFocused, setIsSearchFocused] = useState(false)
   const [activeFilters, setActiveFilters] = useState<{
@@ -143,16 +143,12 @@ export default function OutboundList() {
   }
 
   const handlePageChange = (newPage: number) => {
-    scrollPositionRef.current = window.scrollY
-    setCurrentPage(newPage)
+    const scrollY = window.scrollY
+    flushSync(() => {
+      setCurrentPage(newPage)
+    })
+    window.scrollTo(0, scrollY)
   }
-
-  // Restaurar scroll después del cambio de página (antes del paint)
-  useLayoutEffect(() => {
-    if (scrollPositionRef.current > 0) {
-      window.scrollTo(0, scrollPositionRef.current)
-    }
-  }, [currentPage])
 
   if (!session) return null
 
@@ -480,7 +476,7 @@ export default function OutboundList() {
         </div>
       ) : (
         <>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" style={{ overflowAnchor: 'none' }}>
             {paginatedOrders.map((order) => (
               <OrderCard key={order.orderId} order={order} />
             ))}
