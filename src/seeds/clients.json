@@ -1,0 +1,86 @@
+[
+  {
+    "clientId": "CLI001",
+    "clientName": "ACCURACY PERU SAC",
+    "ruc": "20123456789",
+    "addresses": [
+      {
+        "addressId": "ADDR001",
+        "sociedad": "SBO_ACCURACY",
+        "street": "Av. Javier Prado Este 5268",
+        "city": "Lima",
+        "postalCode": "15023"
+      },
+      {
+        "addressId": "ADDR002",
+        "sociedad": "SBO_OPERACIONES",
+        "street": "Av. Argentina 1234",
+        "city": "Lima",
+        "postalCode": "15001"
+      }
+    ]
+  },
+  {
+    "clientId": "CLI002",
+    "clientName": "AMBAR DISTRIBUCIONES EIRL",
+    "ruc": "20987654321",
+    "addresses": [
+      {
+        "addressId": "ADDR003",
+        "sociedad": "SBO_AMBAR",
+        "street": "Calle Los Olivos 456",
+        "city": "Arequipa",
+        "postalCode": "04001"
+      }
+    ]
+  },
+  {
+    "clientId": "CLI003",
+    "clientName": "COMERCIAL ANDINA SA",
+    "ruc": "20555666777",
+    "addresses": [
+      {
+        "addressId": "ADDR004",
+        "sociedad": "SBO_OPERACIONES",
+        "street": "Jr. Ucayali 890",
+        "city": "Lima",
+        "postalCode": "15002"
+      },
+      {
+        "addressId": "ADDR005",
+        "sociedad": "SBO_ACCURACY",
+        "street": "Av. Universitaria 2200",
+        "city": "Lima",
+        "postalCode": "15088"
+      }
+    ]
+  },
+  {
+    "clientId": "CLI004",
+    "clientName": "MAYORISTA DEL SUR SAC",
+    "ruc": "20444555666",
+    "addresses": [
+      {
+        "addressId": "ADDR006",
+        "sociedad": "SBO_AMBAR",
+        "street": "Av. Bolognesi 678",
+        "city": "Cusco",
+        "postalCode": "08000"
+      },
+      {
+        "addressId": "ADDR007",
+        "sociedad": "SBO_ACCURACY",
+        "street": "Calle Mariscal Castilla 234",
+        "city": "Trujillo",
+        "postalCode": "13001"
+      },
+      {
+        "addressId": "ADDR008",
+        "sociedad": "SBO_OPERACIONES",
+        "street": "Av. La Marina 890",
+        "city": "Lima",
+        "postalCode": "15076"
+      }
+    ]
+  }
+]

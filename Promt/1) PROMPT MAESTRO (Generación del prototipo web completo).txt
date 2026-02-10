@@ -1,0 +1,191 @@
+Actúa como un desarrollador senior fullstack frontend. Necesito que construyas un PROTOTIPO funcional (demo) de un módulo WMS de CHEQUEO + PACKING post-picking, basado en pedidos outbound, con UI moderna responsive para PC/tablet.
+
+RESTRICCIONES Y OBJETIVO
+- No usar base de datos real ni backend real.
+- Todo debe funcionar OFFLINE en mi laptop.
+- Persistencia: usar localStorage o IndexedDB (preferir IndexedDB si necesitas almacenar listas grandes). Debe persistir si recargo el navegador.
+- La información inicial viene de archivos JSON (seeds) y luego se actualiza en el storage.
+- Stack: React + Vite + TypeScript (mínimo setup). Debe levantarse con:
+  1) npm install
+  2) npm run dev
+- UI moderna (tipo SaaS), pero orientada a operación (rápida, clara).
+- Idioma: 100% español (no implementar inglés).
+- Multi-sociedad y multi-cliente:
+  - En login el usuario selecciona sociedad (dropdown): SBO_OPERACIONES, SBO_AMBAR, SBO_ACCURACY.
+  - El usuario puede cambiar la sociedad en el login.
+  - Cada usuario solo ve los clientes asignados (asignación definida en user_clients.json).
+  - Un cliente puede pertenecer a más de una sociedad.
+
+MÓDULOS (VISTAS DEL MVP)
+A) Login (clásico: usuario, clave, sociedad)
+B) Vista principal (dashboard/filtros globales)
+C) Outbound (lista de pedidos)
+D) OutboundDetail (Packing / Chequeo)
+E) Reporte de avance de chequeo (dashboard global con gráficos + drill-down por pedido)
+F) Reporte de incidencias (faltantes/trueques/sobrantes/DIF_PESO con gráficos + tabla)
+G) Módulo de trazabilidad de etiquetas: OMITIR (no implementarlo)
+
+ROLES
+- Admin: puede todo.
+- Supervisor: puede todo.
+- Operario: puede todo excepto reabrir un pedido.
+- Autorizaciones:
+  - Si usuario logueado es supervisor/admin: autoriza con 1 click.
+  - Si usuario logueado es operario: pedir clave de supervisor (fake) en un modal.
+- Acciones que requieren autorización (cuando sea operario):
+  - Registrar SOBRANTE (Checked > Picked)
+  - Editar peso real de etiqueta (balanza)
+  - Reabrir etiqueta cerrada
+  - (Operario NO puede reabrir pedido en ningún caso)
+
+ESTADOS DEL PEDIDO
+- RECEP: pedidos PICADOS sin iniciar PACKING (Checked=0, no scans).
+- CHK: cuando se hace el primer scan (inicia packing).
+- CONFIRMADO WMS: cuando se cierra el packing del pedido.
+- CONFIRMADO DESPACHO: NO implementar (solo mostrar como estado posible si existiera en seeds, pero no generar flujo).
+
+REGLAS DE CANTIDADES
+Cada línea del pedido tiene 3 cantidades:
+- OrderedQty (ordenada)
+- PickedQty (picada)
+- CheckedQty (chequeada por packing) -> se acumula por scans
+Meta del packing: alcanzar PickedQty.
+Semáforo por línea y por pedido:
+- Verde: CheckedQty == PickedQty
+- Amarillo: CheckedQty != PickedQty
+- Rojo: (PickedQty - CheckedQty) >= 1 o faltante reportado para esa línea
+Nota: Si CheckedQty supera PickedQty, es SOBRANTE (incidencia).
+
+ETIQUETAS / BULTOS / CAJAS (equivalentes)
+- Un pedido puede tener N etiquetas creadas manualmente “al ojo”.
+- Formato labelId: CLIENTE-ORDERID-SEQ (ej: SOLUM-4500123-03)
+- Mientras el pedido está abierto, mostrar SEQ/? (no se conoce total). Al cerrar el pedido, congelar y mostrar SEQ/TOTAL.
+
+- Eliminación de etiquetas:
+   - Una etiqueta SOLO puede ser eliminada si NO tiene contenido (no tiene scans asignados).
+   - Si una etiqueta tiene scans asignados, el sistema DEBE bloquear la eliminación de la etiqueta y mostrar un mensaje indicando que primero se deben eliminar manualmente todos los scans asociados.
+   - El sistema NO debe eliminar scans automáticamente al eliminar una etiqueta.
+   - La eliminación de scans debe ser una acción explícita del usuario (por registro o en lote, según diseño), respetando reglas de autorización si aplican.
+   - Solo cuando una etiqueta queda completamente vacía (sin scans), se debe habilitar la opción “Eliminar etiqueta”.
+   - Si existen incidencias asociadas a scans eliminados, dichas incidencias deben mantenerse registradas como histórico (no deben borrarse automáticamente).
+
+- Cerrar etiqueta:
+  - Una etiqueta cerrada no permite agregar scans.
+  - Se puede reabrir etiqueta con autorización (supervisor/admin 1 click; operario pide clave).
+  - Si se reabre y luego se cierra de nuevo, se debe reimprimir SOLO si hubo cambios de contenido desde el último cierre.
+- Peso:
+  - Cada SKU tiene peso teórico por unidad (en catálogo).
+  - El peso teórico de la etiqueta es la suma (pesoSKU * cantidadChecadaRealEnEA).
+  - Al cerrar etiqueta simular balanza: mostrar modal “Leyendo balanza…” y asignar un peso real automático cercano al teórico.
+  - En ese modal permitir editar el peso real (editable SOLO con autorización si es operario).
+  - Si |pesoReal - pesoTeorico| supera un umbral (definir umbral razonable, ej 5% o 0.5kg), generar incidencia DIF_PESO automáticamente.
+
+SCANNER / CHEQUEO
+- El usuario puede ingresar SKU o EAN.
+- Si se ingresa EAN, mapear a SKU mediante catálogo.
+- Si el EAN está duplicado (mapea a más de un SKU), el sistema debe pedir SKU interno manualmente (modal/input).
+- Validación principal:
+  - TRUEQUE: si el SKU (o combinación SKU+LOTE) no pertenece al pedido, registrar incidencia TRUEQUE y alertar.
+  - El sistema asigna automáticamente a qué línea pertenece el SKU escaneado:
+    - Si el SKU está en 1 línea => usar esa línea.
+    - Si el SKU está en varias líneas => elegir la primera con saldo pendiente (PickedQty - CheckedQty > 0).
+- Series:
+  - Algunas líneas/SKU requieren series (flag requiresSeries).
+  - Si requiere series: el usuario escanea series una por una (cada enter agrega una serie).
+  - La cantidad se incrementa automáticamente por cada serie (no editable manualmente).
+  - La serie es única global: validar contra todas las series ya registradas en todos los pedidos (en storage). Si serie ya existe, bloquear y alertar.
+- Lote:
+  - Algunas líneas/SKU requieren lote (flag requiresLot).
+  - Flujo: escanear/ingresar lote y luego ingresar cantidad.
+- UOM:
+  - Cada SKU tiene conversiones por UOM propias, ejemplo:
+    - EA:1, PACK6:6, MASTER24:24 (depende del SKU)
+  - Permitir seleccionar UOM al ingresar cantidad (solo si NO es por series).
+  - Permitir mezclar UOM en el mismo SKU (múltiples scans con UOM diferentes).
+  - Siempre acumular CheckedQty en unidad base (EA) para comparaciones y peso.
+- Sobrante:
+  - Si el usuario intenta registrar cantidad que hará CheckedQty > PickedQty:
+    - Mostrar confirmación “¿Seguro?”.
+    - Si confirma, permitir registrar pero requerir autorización (según rol).
+    - Registrar incidencia SOBRANTE con datos: SKU, QTY, LABEL, USUARIO, FECHA/HORA, AUTORIZADO, COMENTARIO(opcional).
+- Faltante:
+  - Debe existir un botón “Reportar faltante” por línea.
+  - Al presionarlo, crear incidencia FALTANTE con qtyFaltante = PickedQty - CheckedQty (si >0).
+  - No requiere autorización.
+  - Marcar esa línea en rojo.
+- Continuidad:
+  - Un pedido puede alternarse (no lock por operario).
+  - Al primer scan del pedido, cambiar estado a CHK.
+
+REPACK (MOVER ENTRE ETIQUETAS)
+- Solo permitido si ambas etiquetas están ABIERTAS.
+- Permitir repack total (mover todo) o parcial (mover X cantidad).
+- Implementación auditable:
+  - Registrar un scan NEGATIVO en etiqueta origen y un scan POSITIVO en etiqueta destino (mantener historial).
+- Repack con series:
+  - Permitir repack parcial/total eligiendo qué series se mueven.
+  - Las series deben moverse, no duplicarse.
+
+CIERRE DE PEDIDO
+- Cerrar pedido cambia estado a CONFIRMADO WMS.
+- Se permite cerrar el pedido con incidencias y/o líneas incompletas.
+- En lista de pedidos y dashboards, un pedido con incidencias debe mostrarse con semáforo/alerta (color distinto, icono).
+- Operario NO puede reabrir pedido; supervisor/admin sí puede reabrir pedido con acción explícita.
+
+IMPRESIÓN (SIMULADA) - PDF
+- Al cerrar una etiqueta, se marca como “pendiente de impresión actualizada” si hubo cambios.
+- Para la demo, generar un PDF con TODAS las etiquetas del pedido (tamaño 10x15 cm cada etiqueta, una por página).
+- El PDF debe incluir:
+  - labelId (CLIENTE-ORDER-SEQ y luego SEQ/TOTAL al cerrar pedido)
+  - orderId
+  - sociedad
+  - cliente y dirección de entrega
+  - peso teórico y peso real
+  - usuario que cerró
+  - fecha/hora
+  - QR que contenga un JSON compacto con {labelId, orderId, sociedad}
+- Proveer botón “Ver/Descargar PDF etiquetas del pedido”.
+
+REPORTES (muy vistosos)
+1) Dashboard global de avance:
+- Filtros: sociedad, cliente, rango fechas, usuario (opcional).
+- Mostrar:
+  - Donut global % avance (suma checked vs suma picked)
+  - Lista de pedidos con mini-donut por pedido
+  - Al seleccionar un pedido: drill-down con:
+    - barras por línea (Picked vs Checked)
+    - heatmap por etiqueta (% avance etiqueta = unidades asignadas a esa etiqueta / unidades totales del pedido)
+2) Reporte global de incidencias:
+- Gráfico por tipo (TRUEQUE, SOBRANTE, FALTANTE, DIF_PESO)
+- Tabla detallada con filtros (sociedad, cliente, fecha, pedido, usuario, tipo)
+- Exportar a CSV (descarga en navegador)
+
+ESTRUCTURA DE DATOS
+- Implementar tipos TypeScript y validaciones.
+- Seeds JSON deben existir en /src/seeds/*.json y cargarse al primer uso (si no hay data en storage).
+- Tablas/colecciones recomendadas:
+  - users.json
+  - user_clients.json
+  - clients.json
+  - orders.json
+  - order_lines.json
+  - labels.json
+  - scans.json
+  - incidents.json
+  - sku_catalog.json (incluye UOM conversions, pesos, flags requiresSeries/requiresLot)
+
+UX / UI
+- Debe ser responsive (PC y tablet).
+- En pantalla de packing incluir campo visible “Estación/Mesa” (puede ser un texto editable en configuración rápida, guardado en storage).
+- Flujos deben ser rápidos (scanner-first):
+  - foco automático en input de escaneo
+  - atajos: Enter para registrar
+- Mostrar mensajes claros y modales de confirmación.
+- Mostrar estados con chips (RECEP/CHK/CONFIRMADO WMS) y semáforo.
+- Mostrar progreso por pedido: checked/picked y %.
+
+ENTREGABLE
+- Entregar el código completo del proyecto.
+- Incluir README con pasos para instalar y correr.
+- Incluir explicación breve de cómo resetear el storage (botón “Reset demo data” en settings).
+- No uses servicios externos.

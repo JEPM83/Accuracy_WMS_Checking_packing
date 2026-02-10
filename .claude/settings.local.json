@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(test:*)",
+      "Bash(node:*)",
+      "Bash(for file in *.json)",
+      "Bash(done)",
+      "Bash(npm run build:*)",
+      "Bash(timeout:*)",
+      "Bash(exit:*)",
+      "Bash(findstr:*)"
+    ]
+  }
+}

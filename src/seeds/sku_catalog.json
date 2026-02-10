@@ -1,0 +1,232 @@
+[
+  {
+    "skuId": "SKU001",
+    "description": "Laptop Dell Inspiron 15",
+    "eans": ["7501234567890", "7501234567899"],
+    "weightPerEA": 2.5,
+    "requiresSeries": true,
+    "requiresLot": false,
+    "uomConversions": {
+      "EA": 1
+    }
+  },
+  {
+    "skuId": "SKU002",
+    "description": "Mouse Logitech M185",
+    "eans": ["7502345678901"],
+    "weightPerEA": 0.15,
+    "requiresSeries": true,
+    "requiresLot": false,
+    "uomConversions": {
+      "EA": 1,
+      "PACK6": 6
+    }
+  },
+  {
+    "skuId": "SKU003",
+    "description": "Teclado Mecánico RGB",
+    "eans": ["7503456789012"],
+    "weightPerEA": 0.8,
+    "requiresSeries": false,
+    "requiresLot": false,
+    "uomConversions": {
+      "EA": 1,
+      "PACK6": 6
+    }
+  },
+  {
+    "skuId": "SKU004",
+    "description": "Monitor Samsung 24 pulgadas",
+    "eans": ["7504567890123"],
+    "weightPerEA": 4.2,
+    "requiresSeries": true,
+    "requiresLot": false,
+    "uomConversions": {
+      "EA": 1
+    }
+  },
+  {
+    "skuId": "SKU005",
+    "description": "Medicamento Paracetamol 500mg",
+    "eans": [
+      "7505678901234",
+      { "ean": "7505678901235", "uom": "PACK12" },
+      { "ean": "7505678901236", "uom": "MASTER48" }
+    ],
+    "weightPerEA": 0.05,
+    "requiresSeries": false,
+    "requiresLot": true,
+    "uomConversions": {
+      "EA": 1,
+      "PACK12": 12,
+      "MASTER48": 48
+    }
+  },
+  {
+    "skuId": "SKU006",
+    "description": "Antibiótico Amoxicilina 250mg",
+    "eans": ["7506789012345"],
+    "weightPerEA": 0.08,
+    "requiresSeries": false,
+    "requiresLot": true,
+    "uomConversions": {
+      "EA": 1,
+      "PACK6": 6,
+      "MASTER24": 24
+    }
+  },
+  {
+    "skuId": "SKU007",
+    "description": "Cable HDMI 2.0 - 2 metros",
+    "eans": [
+      "7507890123456",
+      { "ean": "7507890123457", "uom": "PACK6" },
+      { "ean": "7507890123458", "uom": "MASTER24" }
+    ],
+    "weightPerEA": 0.25,
+    "requiresSeries": false,
+    "requiresLot": false,
+    "uomConversions": {
+      "EA": 1,
+      "PACK6": 6,
+      "MASTER24": 24
+    }
+  },
+  {
+    "skuId": "SKU008",
+    "description": "Cargador Universal USB-C",
+    "eans": ["7508901234567"],
+    "weightPerEA": 0.35,
+    "requiresSeries": false,
+    "requiresLot": false,
+    "uomConversions": {
+      "EA": 1,
+      "PACK12": 12
+    }
+  },
+  {
+    "skuId": "SKU009",
+    "description": "Auriculares Bluetooth Sony",
+    "eans": ["7509012345678"],
+    "weightPerEA": 0.28,
+    "requiresSeries": true,
+    "requiresLot": false,
+    "uomConversions": {
+      "EA": 1
+    }
+  },
+  {
+    "skuId": "SKU010",
+    "description": "Tablet Samsung Galaxy Tab A8",
+    "eans": ["7500123456789"],
+    "weightPerEA": 0.55,
+    "requiresSeries": true,
+    "requiresLot": false,
+    "uomConversions": {
+      "EA": 1
+    }
+  },
+  {
+    "skuId": "SKU011",
+    "description": "Jarabe Expectorante 120ml",
+    "eans": [
+      "7511234567899",
+      { "ean": "7501234567899", "uom": "PACK12" }
+    ],
+    "weightPerEA": 0.18,
+    "requiresSeries": false,
+    "requiresLot": true,
+    "uomConversions": {
+      "EA": 1,
+      "PACK12": 12
+    }
+  },
+  {
+    "skuId": "SKU012",
+    "description": "Pendrive Kingston 64GB",
+    "eans": [
+      "7512345678902",
+      { "ean": "7512345678903", "uom": "PACK6" },
+      { "ean": "7512345678904", "uom": "MASTER24" }
+    ],
+    "weightPerEA": 0.02,
+    "requiresSeries": false,
+    "requiresLot": false,
+    "uomConversions": {
+      "EA": 1,
+      "PACK6": 6,
+      "MASTER24": 24
+    }
+  },
+  {
+    "skuId": "SKU013",
+    "description": "Disco Duro Externo 1TB",
+    "eans": ["7513456789013"],
+    "weightPerEA": 0.22,
+    "requiresSeries": true,
+    "requiresLot": false,
+    "uomConversions": {
+      "EA": 1
+    }
+  },
+  {
+    "skuId": "SKU014",
+    "description": "Vitaminas Multivitamínico 30tab",
+    "eans": ["7514567890124"],
+    "weightPerEA": 0.12,
+    "requiresSeries": false,
+    "requiresLot": true,
+    "uomConversions": {
+      "EA": 1,
+      "PACK6": 6,
+      "MASTER48": 48
+    }
+  },
+  {
+    "skuId": "SKU015",
+    "description": "Webcam Logitech C920",
+    "eans": ["7515678901235"],
+    "weightPerEA": 0.32,
+    "requiresSeries": false,
+    "requiresLot": false,
+    "uomConversions": {
+      "EA": 1,
+      "PACK6": 6
+    }
+  },
+  {
+    "skuId": "SKU016",
+    "description": "Impresora HP LaserJet Pro",
+    "eans": ["7516789012346"],
+    "weightPerEA": 8.5,
+    "requiresSeries": true,
+    "requiresLot": false,
+    "uomConversions": {
+      "EA": 1
+    }
+  },
+  {
+    "skuId": "SKU017",
+    "description": "Router WiFi TP-Link AC1200",
+    "eans": ["7517890123457"],
+    "weightPerEA": 0.45,
+    "requiresSeries": false,
+    "requiresLot": false,
+    "uomConversions": {
+      "EA": 1,
+      "PACK6": 6
+    }
+  },
+  {
+    "skuId": "SKU018",
+    "description": "Suero Oral Pedialyte 500ml",
+    "eans": ["7518901234568"],
+    "weightPerEA": 0.52,
+    "requiresSeries": false,
+    "requiresLot": true,
+    "uomConversions": {
+      "EA": 1,
+      "PACK12": 12
+    }
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "userId": "USR001",
+    "clientId": "CLI001",
+    "sociedad": "SBO_OPERACIONES"
+  },
+  {
+    "userId": "USR001",
+    "clientId": "CLI003",
+    "sociedad": "SBO_OPERACIONES"
+  },
+  {
+    "userId": "USR002",
+    "clientId": "CLI001",
+    "sociedad": "SBO_OPERACIONES"
+  },
+  {
+    "userId": "USR002",
+    "clientId": "CLI002",
+    "sociedad": "SBO_OPERACIONES"
+  },
+  {
+    "userId": "USR002",
+    "clientId": "CLI003",
+    "sociedad": "SBO_OPERACIONES"
+  },
+  {
+    "userId": "USR002",
+    "clientId": "CLI004",
+    "sociedad": "SBO_OPERACIONES"
+  },
+  {
+    "userId": "USR002",
+    "clientId": "CLI001",
+    "sociedad": "SBO_ACCURACY"
+  },
+  {
+    "userId": "USR002",
+    "clientId": "CLI002",
+    "sociedad": "SBO_ACCURACY"
+  },
+  {
+    "userId": "USR002",
+    "clientId": "CLI003",
+    "sociedad": "SBO_ACCURACY"
+  },
+  {
+    "userId": "USR002",
+    "clientId": "CLI004",
+    "sociedad": "SBO_ACCURACY"
+  },
+  {
+    "userId": "USR002",
+    "clientId": "CLI001",
+    "sociedad": "SBO_AMBAR"
+  },
+  {
+    "userId": "USR002",
+    "clientId": "CLI002",
+    "sociedad": "SBO_AMBAR"
+  },
+  {
+    "userId": "USR002",
+    "clientId": "CLI003",
+    "sociedad": "SBO_AMBAR"
+  },
+  {
+    "userId": "USR002",
+    "clientId": "CLI004",
+    "sociedad": "SBO_AMBAR"
+  },
+  {
+    "userId": "USR003",
+    "clientId": "CLI001",
+    "sociedad": "SBO_OPERACIONES"
+  },
+  {
+    "userId": "USR003",
+    "clientId": "CLI002",
+    "sociedad": "SBO_OPERACIONES"
+  },
+  {
+    "userId": "USR003",
+    "clientId": "CLI003",
+    "sociedad": "SBO_OPERACIONES"
+  },
+  {
+    "userId": "USR003",
+    "clientId": "CLI004",
+    "sociedad": "SBO_OPERACIONES"
+  },
+  {
+    "userId": "USR003",
+    "clientId": "CLI001",
+    "sociedad": "SBO_ACCURACY"
+  },
+  {
+    "userId": "USR003",
+    "clientId": "CLI002",
+    "sociedad": "SBO_ACCURACY"
+  },
+  {
+    "userId": "USR003",
+    "clientId": "CLI003",
+    "sociedad": "SBO_ACCURACY"
+  },
+  {
+    "userId": "USR003",
+    "clientId": "CLI004",
+    "sociedad": "SBO_ACCURACY"
+  },
+  {
+    "userId": "USR003",
+    "clientId": "CLI001",
+    "sociedad": "SBO_AMBAR"
+  },
+  {
+    "userId": "USR003",
+    "clientId": "CLI002",
+    "sociedad": "SBO_AMBAR"
+  },
+  {
+    "userId": "USR003",
+    "clientId": "CLI003",
+    "sociedad": "SBO_AMBAR"
+  },
+  {
+    "userId": "USR003",
+    "clientId": "CLI004",
+    "sociedad": "SBO_AMBAR"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "userId": "USR001",
+    "username": "operario1",
+    "password": "1234",
+    "role": "OPERARIO",
+    "fullName": "Juan Pérez"
+  },
+  {
+    "userId": "USR002",
+    "username": "supervisor1",
+    "password": "1234",
+    "role": "SUPERVISOR",
+    "fullName": "María García"
+  },
+  {
+    "userId": "USR003",
+    "username": "admin1",
+    "password": "1234",
+    "role": "ADMIN",
+    "fullName": "Eduardo Pariona"
+  }
+]

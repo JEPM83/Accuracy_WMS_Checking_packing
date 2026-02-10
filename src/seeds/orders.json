@@ -1,0 +1,752 @@
+[
+  {
+    "orderId": "ORD001",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T08:30:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR002",
+    "observaciones": "Pedido urgente"
+  },
+  {
+    "orderId": "ORD002",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T09:15:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR004",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD003",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T10:00:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR002",
+    "observaciones": "Cliente preferencial"
+  },
+  {
+    "orderId": "ORD004",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T10:45:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR003",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD005",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T11:20:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR008",
+    "observaciones": "Productos farmacéuticos"
+  },
+  {
+    "orderId": "ORD006",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T12:00:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR005",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD007",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T13:15:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR002",
+    "observaciones": "Entrega antes de las 17:00"
+  },
+  {
+    "orderId": "ORD008",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T14:00:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR003",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD009",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T15:30:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR008",
+    "observaciones": "Verificar series cuidadosamente"
+  },
+  {
+    "orderId": "ORD010",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T08:00:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR004",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD011",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T09:30:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR002",
+    "observaciones": "Material de oficina"
+  },
+  {
+    "orderId": "ORD012",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T10:15:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR003",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD013",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T11:45:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR008",
+    "observaciones": "Revisar lotes y vencimientos"
+  },
+  {
+    "orderId": "ORD014",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T13:00:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR005",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD015",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T14:30:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR002",
+    "observaciones": "Equipos electrónicos"
+  },
+  {
+    "orderId": "ORD016",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T15:45:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR003",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD017",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T08:30:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR008",
+    "observaciones": "Pedido estándar"
+  },
+  {
+    "orderId": "ORD018",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T09:45:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR004",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD019",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T11:00:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR002",
+    "observaciones": "Entrega programada"
+  },
+  {
+    "orderId": "ORD020",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T12:30:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR003",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD021",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T14:00:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR008",
+    "observaciones": "Coordinación con cliente"
+  },
+  {
+    "orderId": "ORD022",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T15:15:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR005",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD023",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-27T08:00:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR002",
+    "observaciones": "Prioridad alta"
+  },
+  {
+    "orderId": "ORD024",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-27T10:30:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR003",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD025",
+    "sociedad": "SBO_OPERACIONES",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-27T13:00:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR008",
+    "observaciones": "Productos con lote"
+  },
+  {
+    "orderId": "ORD026",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T08:15:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR001",
+    "observaciones": "Productos con series"
+  },
+  {
+    "orderId": "ORD027",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T09:30:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR005",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD028",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T10:45:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR007",
+    "observaciones": "Entrega a domicilio"
+  },
+  {
+    "orderId": "ORD029",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T11:30:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR003",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD030",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T13:00:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR001",
+    "observaciones": "Equipos electrónicos con series"
+  },
+  {
+    "orderId": "ORD031",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T14:15:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR005",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD032",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T15:45:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR007",
+    "observaciones": "Pedido urgente"
+  },
+  {
+    "orderId": "ORD033",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T08:30:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR003",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD034",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T09:45:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR001",
+    "observaciones": "Cliente preferencial"
+  },
+  {
+    "orderId": "ORD035",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T11:00:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR005",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD036",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T12:30:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR007",
+    "observaciones": "Verificar cantidades"
+  },
+  {
+    "orderId": "ORD037",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T14:00:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR003",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD038",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T15:30:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR001",
+    "observaciones": "Material de oficina"
+  },
+  {
+    "orderId": "ORD039",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T08:15:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR005",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD040",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T09:45:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR007",
+    "observaciones": "Entrega programada"
+  },
+  {
+    "orderId": "ORD041",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T11:15:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR003",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD042",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T12:45:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR001",
+    "observaciones": "Productos con series - validar cuidadosamente"
+  },
+  {
+    "orderId": "ORD043",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T14:00:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR005",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD044",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T15:30:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR007",
+    "observaciones": "Coordinación con cliente"
+  },
+  {
+    "orderId": "ORD045",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-27T08:00:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR003",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD046",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-27T09:30:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR001",
+    "observaciones": "Prioridad alta"
+  },
+  {
+    "orderId": "ORD047",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-27T11:00:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR005",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD048",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-27T12:30:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR007",
+    "observaciones": "Pedido estándar"
+  },
+  {
+    "orderId": "ORD049",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-27T14:00:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR003",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD050",
+    "sociedad": "SBO_ACCURACY",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-27T15:45:00",
+    "usuarioCreacion": "USR003",
+    "addressId": "ADDR001",
+    "observaciones": "Revisar documentación"
+  },
+  {
+    "orderId": "ORD051",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T08:00:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR003",
+    "observaciones": "Medicamentos - verificar lotes"
+  },
+  {
+    "orderId": "ORD052",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T09:15:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR006",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD053",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T10:30:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR001",
+    "observaciones": "Productos farmacéuticos - cadena de frío"
+  },
+  {
+    "orderId": "ORD054",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T11:45:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR005",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD055",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T13:00:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR003",
+    "observaciones": "Entrega urgente"
+  },
+  {
+    "orderId": "ORD056",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T14:30:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR006",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD057",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-30T15:45:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR001",
+    "observaciones": "Verificar series"
+  },
+  {
+    "orderId": "ORD058",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T08:15:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR004",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD059",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T09:45:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR003",
+    "observaciones": "Cliente preferencial"
+  },
+  {
+    "orderId": "ORD060",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T11:00:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR006",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD061",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T12:30:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR001",
+    "observaciones": "Material de oficina"
+  },
+  {
+    "orderId": "ORD062",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T14:00:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR005",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD063",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-29T15:15:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR003",
+    "observaciones": "Productos sensibles"
+  },
+  {
+    "orderId": "ORD064",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T08:30:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR006",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD065",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T09:45:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR001",
+    "observaciones": "En proceso"
+  },
+  {
+    "orderId": "ORD066",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T11:15:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR004",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD067",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T12:45:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR003",
+    "observaciones": "Coordinación con cliente"
+  },
+  {
+    "orderId": "ORD068",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T14:00:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR006",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD069",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-28T15:30:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR001",
+    "observaciones": "Avanzando con chequeo"
+  },
+  {
+    "orderId": "ORD070",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-27T08:00:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR005",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD071",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-27T09:30:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR003",
+    "observaciones": "Pedido estándar"
+  },
+  {
+    "orderId": "ORD072",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI004",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-27T11:00:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR006",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD073",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI001",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-27T12:30:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR001",
+    "observaciones": "Última recepción del día"
+  },
+  {
+    "orderId": "ORD074",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI003",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-27T14:00:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR004",
+    "observaciones": null
+  },
+  {
+    "orderId": "ORD075",
+    "sociedad": "SBO_AMBAR",
+    "clientId": "CLI002",
+    "status": "RECEP",
+    "fechaCreacion": "2026-01-27T15:45:00",
+    "usuarioCreacion": "USR002",
+    "addressId": "ADDR003",
+    "observaciones": "Prioridad alta"
+  }
+]

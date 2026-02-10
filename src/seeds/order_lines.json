@@ -1,0 +1,4522 @@
+[
+  {
+    "lineId": "ORD001-L1",
+    "orderId": "ORD001",
+    "skuId": "SKU003",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD001-L2",
+    "orderId": "ORD001",
+    "skuId": "SKU009",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD001-L3",
+    "orderId": "ORD001",
+    "skuId": "SKU014",
+    "orderedQty": 36,
+    "pickedQty": 36,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD001-L4",
+    "orderId": "ORD001",
+    "skuId": "SKU007",
+    "orderedQty": 12,
+    "pickedQty": 12,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD001-L5",
+    "orderId": "ORD001",
+    "skuId": "SKU016",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD001-L6",
+    "orderId": "ORD001",
+    "skuId": "SKU012",
+    "orderedQty": 20,
+    "pickedQty": 20,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+   {
+    "lineId": "ORD001-L7",
+    "orderId": "ORD001",
+    "skuId": "SKU007",
+    "orderedQty": 20,
+    "pickedQty": 20,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  }
+  ,
+  {
+    "lineId": "ORD002-L1",
+    "orderId": "ORD002",
+    "skuId": "SKU005",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD002-L2",
+    "orderId": "ORD002",
+    "skuId": "SKU001",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD002-L3",
+    "orderId": "ORD002",
+    "skuId": "SKU008",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD002-L4",
+    "orderId": "ORD002",
+    "skuId": "SKU013",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD002-L5",
+    "orderId": "ORD002",
+    "skuId": "SKU017",
+    "orderedQty": 9,
+    "pickedQty": 9,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD003-L1",
+    "orderId": "ORD003",
+    "skuId": "SKU010",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD003-L2",
+    "orderId": "ORD003",
+    "skuId": "SKU011",
+    "orderedQty": 48,
+    "pickedQty": 48,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD003-L3",
+    "orderId": "ORD003",
+    "skuId": "SKU003",
+    "orderedQty": 22,
+    "pickedQty": 22,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD003-L4",
+    "orderId": "ORD003",
+    "skuId": "SKU015",
+    "orderedQty": 14,
+    "pickedQty": 14,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD003-L5",
+    "orderId": "ORD003",
+    "skuId": "SKU006",
+    "orderedQty": 30,
+    "pickedQty": 30,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD003-L6",
+    "orderId": "ORD003",
+    "skuId": "SKU002",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD003-L7",
+    "orderId": "ORD003",
+    "skuId": "SKU008",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },{
+    "lineId": "ORD003-L8",
+    "orderId": "ORD003",
+    "skuId": "SKU011",
+    "orderedQty": 148,
+    "pickedQty": 148,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD004-L1",
+    "orderId": "ORD004",
+    "skuId": "SKU018",
+    "orderedQty": 42,
+    "pickedQty": 42,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD004-L2",
+    "orderId": "ORD004",
+    "skuId": "SKU004",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD004-L3",
+    "orderId": "ORD004",
+    "skuId": "SKU012",
+    "orderedQty": 16,
+    "pickedQty": 16,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD004-L4",
+    "orderId": "ORD004",
+    "skuId": "SKU007",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD004-L5",
+    "orderId": "ORD004",
+    "skuId": "SKU009",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD004-L6",
+    "orderId": "ORD004",
+    "skuId": "SKU015",
+    "orderedQty": 10,
+    "pickedQty": 10,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD005-L1",
+    "orderId": "ORD005",
+    "skuId": "SKU013",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD005-L2",
+    "orderId": "ORD005",
+    "skuId": "SKU005",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD005-L3",
+    "orderId": "ORD005",
+    "skuId": "SKU017",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD005-L4",
+    "orderId": "ORD005",
+    "skuId": "SKU001",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD005-L5",
+    "orderId": "ORD005",
+    "skuId": "SKU008",
+    "orderedQty": 13,
+    "pickedQty": 13,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD005-L6",
+    "orderId": "ORD005",
+    "skuId": "SKU014",
+    "orderedQty": 27,
+    "pickedQty": 27,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD006-L1",
+    "orderId": "ORD006",
+    "skuId": "SKU016",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD006-L2",
+    "orderId": "ORD006",
+    "skuId": "SKU011",
+    "orderedQty": 36,
+    "pickedQty": 36,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD006-L3",
+    "orderId": "ORD006",
+    "skuId": "SKU003",
+    "orderedQty": 19,
+    "pickedQty": 19,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD006-L4",
+    "orderId": "ORD006",
+    "skuId": "SKU007",
+    "orderedQty": 8,
+    "pickedQty": 8,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD006-L5",
+    "orderId": "ORD006",
+    "skuId": "SKU010",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD006-L6",
+    "orderId": "ORD006",
+    "skuId": "SKU018",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD006-L7",
+    "orderId": "ORD006",
+    "skuId": "SKU012",
+    "orderedQty": 23,
+    "pickedQty": 23,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD007-L1",
+    "orderId": "ORD007",
+    "skuId": "SKU002",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD007-L2",
+    "orderId": "ORD007",
+    "skuId": "SKU006",
+    "orderedQty": 45,
+    "pickedQty": 45,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD007-L3",
+    "orderId": "ORD007",
+    "skuId": "SKU015",
+    "orderedQty": 17,
+    "pickedQty": 17,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD007-L4",
+    "orderId": "ORD007",
+    "skuId": "SKU009",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD007-L5",
+    "orderId": "ORD007",
+    "skuId": "SKU017",
+    "orderedQty": 11,
+    "pickedQty": 11,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD008-L1",
+    "orderId": "ORD008",
+    "skuId": "SKU004",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD008-L2",
+    "orderId": "ORD008",
+    "skuId": "SKU014",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD008-L3",
+    "orderId": "ORD008",
+    "skuId": "SKU008",
+    "orderedQty": 16,
+    "pickedQty": 16,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD008-L4",
+    "orderId": "ORD008",
+    "skuId": "SKU013",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD008-L5",
+    "orderId": "ORD008",
+    "skuId": "SKU003",
+    "orderedQty": 20,
+    "pickedQty": 20,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD008-L6",
+    "orderId": "ORD008",
+    "skuId": "SKU011",
+    "orderedQty": 33,
+    "pickedQty": 33,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD009-L1",
+    "orderId": "ORD009",
+    "skuId": "SKU005",
+    "orderedQty": 39,
+    "pickedQty": 39,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD009-L2",
+    "orderId": "ORD009",
+    "skuId": "SKU001",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD009-L3",
+    "orderId": "ORD009",
+    "skuId": "SKU012",
+    "orderedQty": 14,
+    "pickedQty": 14,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD009-L4",
+    "orderId": "ORD009",
+    "skuId": "SKU016",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD009-L5",
+    "orderId": "ORD009",
+    "skuId": "SKU007",
+    "orderedQty": 22,
+    "pickedQty": 22,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD009-L6",
+    "orderId": "ORD009",
+    "skuId": "SKU018",
+    "orderedQty": 12,
+    "pickedQty": 12,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD009-L7",
+    "orderId": "ORD009",
+    "skuId": "SKU015",
+    "orderedQty": 9,
+    "pickedQty": 9,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD010-L1",
+    "orderId": "ORD010",
+    "skuId": "SKU010",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD010-L2",
+    "orderId": "ORD010",
+    "skuId": "SKU006",
+    "orderedQty": 27,
+    "pickedQty": 27,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD010-L3",
+    "orderId": "ORD010",
+    "skuId": "SKU017",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD010-L4",
+    "orderId": "ORD010",
+    "skuId": "SKU002",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD010-L5",
+    "orderId": "ORD010",
+    "skuId": "SKU008",
+    "orderedQty": 19,
+    "pickedQty": 19,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD011-L1",
+    "orderId": "ORD011",
+    "skuId": "SKU009",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD011-L2",
+    "orderId": "ORD011",
+    "skuId": "SKU014",
+    "orderedQty": 48,
+    "pickedQty": 48,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD011-L3",
+    "orderId": "ORD011",
+    "skuId": "SKU003",
+    "orderedQty": 12,
+    "pickedQty": 12,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD011-L4",
+    "orderId": "ORD011",
+    "skuId": "SKU013",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD011-L5",
+    "orderId": "ORD011",
+    "skuId": "SKU015",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD011-L6",
+    "orderId": "ORD011",
+    "skuId": "SKU007",
+    "orderedQty": 10,
+    "pickedQty": 10,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD012-L1",
+    "orderId": "ORD012",
+    "skuId": "SKU018",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD012-L2",
+    "orderId": "ORD012",
+    "skuId": "SKU004",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD012-L3",
+    "orderId": "ORD012",
+    "skuId": "SKU011",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD012-L4",
+    "orderId": "ORD012",
+    "skuId": "SKU016",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD012-L5",
+    "orderId": "ORD012",
+    "skuId": "SKU012",
+    "orderedQty": 17,
+    "pickedQty": 17,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD012-L6",
+    "orderId": "ORD012",
+    "skuId": "SKU001",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD012-L7",
+    "orderId": "ORD012",
+    "skuId": "SKU008",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD013-L1",
+    "orderId": "ORD013",
+    "skuId": "SKU005",
+    "orderedQty": 30,
+    "pickedQty": 30,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD013-L2",
+    "orderId": "ORD013",
+    "skuId": "SKU010",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD013-L3",
+    "orderId": "ORD013",
+    "skuId": "SKU017",
+    "orderedQty": 13,
+    "pickedQty": 13,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD013-L4",
+    "orderId": "ORD013",
+    "skuId": "SKU003",
+    "orderedQty": 8,
+    "pickedQty": 8,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD013-L5",
+    "orderId": "ORD013",
+    "skuId": "SKU006",
+    "orderedQty": 42,
+    "pickedQty": 42,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD014-L1",
+    "orderId": "ORD014",
+    "skuId": "SKU002",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD014-L2",
+    "orderId": "ORD014",
+    "skuId": "SKU014",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD014-L3",
+    "orderId": "ORD014",
+    "skuId": "SKU007",
+    "orderedQty": 23,
+    "pickedQty": 23,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD014-L4",
+    "orderId": "ORD014",
+    "skuId": "SKU013",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD014-L5",
+    "orderId": "ORD014",
+    "skuId": "SKU015",
+    "orderedQty": 11,
+    "pickedQty": 11,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD014-L6",
+    "orderId": "ORD014",
+    "skuId": "SKU009",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD015-L1",
+    "orderId": "ORD015",
+    "skuId": "SKU011",
+    "orderedQty": 36,
+    "pickedQty": 36,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD015-L2",
+    "orderId": "ORD015",
+    "skuId": "SKU016",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD015-L3",
+    "orderId": "ORD015",
+    "skuId": "SKU008",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD015-L4",
+    "orderId": "ORD015",
+    "skuId": "SKU004",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD015-L5",
+    "orderId": "ORD015",
+    "skuId": "SKU012",
+    "orderedQty": 20,
+    "pickedQty": 20,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD015-L6",
+    "orderId": "ORD015",
+    "skuId": "SKU018",
+    "orderedQty": 27,
+    "pickedQty": 27,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD016-L1",
+    "orderId": "ORD016",
+    "skuId": "SKU001",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD016-L2",
+    "orderId": "ORD016",
+    "skuId": "SKU005",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD016-L3",
+    "orderId": "ORD016",
+    "skuId": "SKU017",
+    "orderedQty": 16,
+    "pickedQty": 16,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD016-L4",
+    "orderId": "ORD016",
+    "skuId": "SKU003",
+    "orderedQty": 14,
+    "pickedQty": 14,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD016-L5",
+    "orderId": "ORD016",
+    "skuId": "SKU010",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD016-L6",
+    "orderId": "ORD016",
+    "skuId": "SKU006",
+    "orderedQty": 33,
+    "pickedQty": 33,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD016-L7",
+    "orderId": "ORD016",
+    "skuId": "SKU015",
+    "orderedQty": 9,
+    "pickedQty": 9,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD017-L1",
+    "orderId": "ORD017",
+    "skuId": "SKU013",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD017-L2",
+    "orderId": "ORD017",
+    "skuId": "SKU014",
+    "orderedQty": 39,
+    "pickedQty": 39,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD017-L3",
+    "orderId": "ORD017",
+    "skuId": "SKU007",
+    "orderedQty": 19,
+    "pickedQty": 19,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD017-L4",
+    "orderId": "ORD017",
+    "skuId": "SKU002",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD017-L5",
+    "orderId": "ORD017",
+    "skuId": "SKU012",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD018-L1",
+    "orderId": "ORD018",
+    "skuId": "SKU009",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD018-L2",
+    "orderId": "ORD018",
+    "skuId": "SKU018",
+    "orderedQty": 45,
+    "pickedQty": 45,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD018-L3",
+    "orderId": "ORD018",
+    "skuId": "SKU008",
+    "orderedQty": 22,
+    "pickedQty": 22,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD018-L4",
+    "orderId": "ORD018",
+    "skuId": "SKU016",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD018-L5",
+    "orderId": "ORD018",
+    "skuId": "SKU011",
+    "orderedQty": 12,
+    "pickedQty": 12,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD018-L6",
+    "orderId": "ORD018",
+    "skuId": "SKU003",
+    "orderedQty": 17,
+    "pickedQty": 17,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD019-L1",
+    "orderId": "ORD019",
+    "skuId": "SKU004",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD019-L2",
+    "orderId": "ORD019",
+    "skuId": "SKU005",
+    "orderedQty": 48,
+    "pickedQty": 48,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD019-L3",
+    "orderId": "ORD019",
+    "skuId": "SKU017",
+    "orderedQty": 10,
+    "pickedQty": 10,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD019-L4",
+    "orderId": "ORD019",
+    "skuId": "SKU010",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD019-L5",
+    "orderId": "ORD019",
+    "skuId": "SKU015",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD019-L6",
+    "orderId": "ORD019",
+    "skuId": "SKU001",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD019-L7",
+    "orderId": "ORD019",
+    "skuId": "SKU007",
+    "orderedQty": 13,
+    "pickedQty": 13,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD020-L1",
+    "orderId": "ORD020",
+    "skuId": "SKU006",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD020-L2",
+    "orderId": "ORD020",
+    "skuId": "SKU013",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD020-L3",
+    "orderId": "ORD020",
+    "skuId": "SKU012",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD020-L4",
+    "orderId": "ORD020",
+    "skuId": "SKU014",
+    "orderedQty": 30,
+    "pickedQty": 30,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD020-L5",
+    "orderId": "ORD020",
+    "skuId": "SKU008",
+    "orderedQty": 11,
+    "pickedQty": 11,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD021-L1",
+    "orderId": "ORD021",
+    "skuId": "SKU002",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD021-L2",
+    "orderId": "ORD021",
+    "skuId": "SKU018",
+    "orderedQty": 36,
+    "pickedQty": 36,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD021-L3",
+    "orderId": "ORD021",
+    "skuId": "SKU003",
+    "orderedQty": 16,
+    "pickedQty": 16,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD021-L4",
+    "orderId": "ORD021",
+    "skuId": "SKU009",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD021-L5",
+    "orderId": "ORD021",
+    "skuId": "SKU017",
+    "orderedQty": 20,
+    "pickedQty": 20,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD021-L6",
+    "orderId": "ORD021",
+    "skuId": "SKU011",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD022-L1",
+    "orderId": "ORD022",
+    "skuId": "SKU016",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD022-L2",
+    "orderId": "ORD022",
+    "skuId": "SKU005",
+    "orderedQty": 42,
+    "pickedQty": 42,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD022-L3",
+    "orderId": "ORD022",
+    "skuId": "SKU007",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD022-L4",
+    "orderId": "ORD022",
+    "skuId": "SKU010",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD022-L5",
+    "orderId": "ORD022",
+    "skuId": "SKU015",
+    "orderedQty": 12,
+    "pickedQty": 12,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD022-L6",
+    "orderId": "ORD022",
+    "skuId": "SKU004",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD022-L7",
+    "orderId": "ORD022",
+    "skuId": "SKU012",
+    "orderedQty": 23,
+    "pickedQty": 23,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD023-L1",
+    "orderId": "ORD023",
+    "skuId": "SKU014",
+    "orderedQty": 27,
+    "pickedQty": 27,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD023-L2",
+    "orderId": "ORD023",
+    "skuId": "SKU001",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD023-L3",
+    "orderId": "ORD023",
+    "skuId": "SKU008",
+    "orderedQty": 14,
+    "pickedQty": 14,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD023-L4",
+    "orderId": "ORD023",
+    "skuId": "SKU013",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD023-L5",
+    "orderId": "ORD023",
+    "skuId": "SKU006",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD024-L1",
+    "orderId": "ORD024",
+    "skuId": "SKU003",
+    "orderedQty": 9,
+    "pickedQty": 9,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD024-L2",
+    "orderId": "ORD024",
+    "skuId": "SKU018",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD024-L3",
+    "orderId": "ORD024",
+    "skuId": "SKU002",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD024-L4",
+    "orderId": "ORD024",
+    "skuId": "SKU017",
+    "orderedQty": 22,
+    "pickedQty": 22,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD024-L5",
+    "orderId": "ORD024",
+    "skuId": "SKU009",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD024-L6",
+    "orderId": "ORD024",
+    "skuId": "SKU011",
+    "orderedQty": 48,
+    "pickedQty": 48,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD025-L1",
+    "orderId": "ORD025",
+    "skuId": "SKU016",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD025-L2",
+    "orderId": "ORD025",
+    "skuId": "SKU005",
+    "orderedQty": 33,
+    "pickedQty": 33,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD025-L3",
+    "orderId": "ORD025",
+    "skuId": "SKU015",
+    "orderedQty": 19,
+    "pickedQty": 19,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD025-L4",
+    "orderId": "ORD025",
+    "skuId": "SKU007",
+    "orderedQty": 6,
+    "pickedQty": 6,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD025-L5",
+    "orderId": "ORD025",
+    "skuId": "SKU010",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD025-L6",
+    "orderId": "ORD025",
+    "skuId": "SKU012",
+    "orderedQty": 17,
+    "pickedQty": 17,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD025-L7",
+    "orderId": "ORD025",
+    "skuId": "SKU014",
+    "orderedQty": 12,
+    "pickedQty": 12,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD026-L1",
+    "orderId": "ORD026",
+    "skuId": "SKU004",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD026-L2",
+    "orderId": "ORD026",
+    "skuId": "SKU006",
+    "orderedQty": 45,
+    "pickedQty": 45,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD026-L3",
+    "orderId": "ORD026",
+    "skuId": "SKU008",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD026-L4",
+    "orderId": "ORD026",
+    "skuId": "SKU013",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD026-L5",
+    "orderId": "ORD026",
+    "skuId": "SKU017",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD027-L1",
+    "orderId": "ORD027",
+    "skuId": "SKU001",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD027-L2",
+    "orderId": "ORD027",
+    "skuId": "SKU018",
+    "orderedQty": 39,
+    "pickedQty": 39,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD027-L3",
+    "orderId": "ORD027",
+    "skuId": "SKU003",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD027-L4",
+    "orderId": "ORD027",
+    "skuId": "SKU011",
+    "orderedQty": 30,
+    "pickedQty": 30,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD027-L5",
+    "orderId": "ORD027",
+    "skuId": "SKU009",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD027-L6",
+    "orderId": "ORD027",
+    "skuId": "SKU015",
+    "orderedQty": 13,
+    "pickedQty": 13,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD028-L1",
+    "orderId": "ORD028",
+    "skuId": "SKU002",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD028-L2",
+    "orderId": "ORD028",
+    "skuId": "SKU014",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD028-L3",
+    "orderId": "ORD028",
+    "skuId": "SKU007",
+    "orderedQty": 11,
+    "pickedQty": 11,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD028-L4",
+    "orderId": "ORD028",
+    "skuId": "SKU010",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD028-L5",
+    "orderId": "ORD028",
+    "skuId": "SKU012",
+    "orderedQty": 16,
+    "pickedQty": 16,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD028-L6",
+    "orderId": "ORD028",
+    "skuId": "SKU005",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD028-L7",
+    "orderId": "ORD028",
+    "skuId": "SKU016",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD029-L1",
+    "orderId": "ORD029",
+    "skuId": "SKU006",
+    "orderedQty": 36,
+    "pickedQty": 36,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD029-L2",
+    "orderId": "ORD029",
+    "skuId": "SKU013",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD029-L3",
+    "orderId": "ORD029",
+    "skuId": "SKU008",
+    "orderedQty": 20,
+    "pickedQty": 20,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD029-L4",
+    "orderId": "ORD029",
+    "skuId": "SKU017",
+    "orderedQty": 8,
+    "pickedQty": 8,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD029-L5",
+    "orderId": "ORD029",
+    "skuId": "SKU004",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD030-L1",
+    "orderId": "ORD030",
+    "skuId": "SKU011",
+    "orderedQty": 42,
+    "pickedQty": 42,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD030-L2",
+    "orderId": "ORD030",
+    "skuId": "SKU009",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD030-L3",
+    "orderId": "ORD030",
+    "skuId": "SKU003",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD030-L4",
+    "orderId": "ORD030",
+    "skuId": "SKU018",
+    "orderedQty": 27,
+    "pickedQty": 27,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD030-L5",
+    "orderId": "ORD030",
+    "skuId": "SKU001",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD030-L6",
+    "orderId": "ORD030",
+    "skuId": "SKU015",
+    "orderedQty": 10,
+    "pickedQty": 10,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD031-L1",
+    "orderId": "ORD031",
+    "skuId": "SKU014",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD031-L2",
+    "orderId": "ORD031",
+    "skuId": "SKU010",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD031-L3",
+    "orderId": "ORD031",
+    "skuId": "SKU007",
+    "orderedQty": 17,
+    "pickedQty": 17,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD031-L4",
+    "orderId": "ORD031",
+    "skuId": "SKU012",
+    "orderedQty": 23,
+    "pickedQty": 23,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD031-L5",
+    "orderId": "ORD031",
+    "skuId": "SKU005",
+    "orderedQty": 48,
+    "pickedQty": 48,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD031-L6",
+    "orderId": "ORD031",
+    "skuId": "SKU016",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD031-L7",
+    "orderId": "ORD031",
+    "skuId": "SKU008",
+    "orderedQty": 12,
+    "pickedQty": 12,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD032-L1",
+    "orderId": "ORD032",
+    "skuId": "SKU002",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD032-L2",
+    "orderId": "ORD032",
+    "skuId": "SKU006",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD032-L3",
+    "orderId": "ORD032",
+    "skuId": "SKU013",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD032-L4",
+    "orderId": "ORD032",
+    "skuId": "SKU017",
+    "orderedQty": 19,
+    "pickedQty": 19,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD032-L5",
+    "orderId": "ORD032",
+    "skuId": "SKU003",
+    "orderedQty": 7,
+    "pickedQty": 7,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD033-L1",
+    "orderId": "ORD033",
+    "skuId": "SKU018",
+    "orderedQty": 33,
+    "pickedQty": 33,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD033-L2",
+    "orderId": "ORD033",
+    "skuId": "SKU004",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD033-L3",
+    "orderId": "ORD033",
+    "skuId": "SKU011",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD033-L4",
+    "orderId": "ORD033",
+    "skuId": "SKU009",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD033-L5",
+    "orderId": "ORD033",
+    "skuId": "SKU015",
+    "orderedQty": 14,
+    "pickedQty": 14,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD033-L6",
+    "orderId": "ORD033",
+    "skuId": "SKU001",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD034-L1",
+    "orderId": "ORD034",
+    "skuId": "SKU005",
+    "orderedQty": 36,
+    "pickedQty": 36,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD034-L2",
+    "orderId": "ORD034",
+    "skuId": "SKU010",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD034-L3",
+    "orderId": "ORD034",
+    "skuId": "SKU012",
+    "orderedQty": 22,
+    "pickedQty": 22,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD034-L4",
+    "orderId": "ORD034",
+    "skuId": "SKU007",
+    "orderedQty": 9,
+    "pickedQty": 9,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD034-L5",
+    "orderId": "ORD034",
+    "skuId": "SKU014",
+    "orderedQty": 45,
+    "pickedQty": 45,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD034-L6",
+    "orderId": "ORD034",
+    "skuId": "SKU016",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD034-L7",
+    "orderId": "ORD034",
+    "skuId": "SKU008",
+    "orderedQty": 16,
+    "pickedQty": 16,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD035-L1",
+    "orderId": "ORD035",
+    "skuId": "SKU013",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD035-L2",
+    "orderId": "ORD035",
+    "skuId": "SKU006",
+    "orderedQty": 27,
+    "pickedQty": 27,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD035-L3",
+    "orderId": "ORD035",
+    "skuId": "SKU003",
+    "orderedQty": 13,
+    "pickedQty": 13,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD035-L4",
+    "orderId": "ORD035",
+    "skuId": "SKU017",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD035-L5",
+    "orderId": "ORD035",
+    "skuId": "SKU002",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD036-L1",
+    "orderId": "ORD036",
+    "skuId": "SKU011",
+    "orderedQty": 12,
+    "pickedQty": 12,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD036-L2",
+    "orderId": "ORD036",
+    "skuId": "SKU009",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD036-L3",
+    "orderId": "ORD036",
+    "skuId": "SKU018",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD036-L4",
+    "orderId": "ORD036",
+    "skuId": "SKU015",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD036-L5",
+    "orderId": "ORD036",
+    "skuId": "SKU004",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD036-L6",
+    "orderId": "ORD036",
+    "skuId": "SKU007",
+    "orderedQty": 20,
+    "pickedQty": 20,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD037-L1",
+    "orderId": "ORD037",
+    "skuId": "SKU001",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD037-L2",
+    "orderId": "ORD037",
+    "skuId": "SKU014",
+    "orderedQty": 39,
+    "pickedQty": 39,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD037-L3",
+    "orderId": "ORD037",
+    "skuId": "SKU010",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD037-L4",
+    "orderId": "ORD037",
+    "skuId": "SKU012",
+    "orderedQty": 11,
+    "pickedQty": 11,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD037-L5",
+    "orderId": "ORD037",
+    "skuId": "SKU008",
+    "orderedQty": 23,
+    "pickedQty": 23,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD037-L6",
+    "orderId": "ORD037",
+    "skuId": "SKU005",
+    "orderedQty": 30,
+    "pickedQty": 30,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD037-L7",
+    "orderId": "ORD037",
+    "skuId": "SKU016",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD038-L1",
+    "orderId": "ORD038",
+    "skuId": "SKU006",
+    "orderedQty": 42,
+    "pickedQty": 42,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD038-L2",
+    "orderId": "ORD038",
+    "skuId": "SKU013",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD038-L3",
+    "orderId": "ORD038",
+    "skuId": "SKU003",
+    "orderedQty": 19,
+    "pickedQty": 19,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD038-L4",
+    "orderId": "ORD038",
+    "skuId": "SKU017",
+    "orderedQty": 14,
+    "pickedQty": 14,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD038-L5",
+    "orderId": "ORD038",
+    "skuId": "SKU002",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD039-L1",
+    "orderId": "ORD039",
+    "skuId": "SKU018",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD039-L2",
+    "orderId": "ORD039",
+    "skuId": "SKU009",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD039-L3",
+    "orderId": "ORD039",
+    "skuId": "SKU011",
+    "orderedQty": 36,
+    "pickedQty": 36,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD039-L4",
+    "orderId": "ORD039",
+    "skuId": "SKU015",
+    "orderedQty": 8,
+    "pickedQty": 8,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD039-L5",
+    "orderId": "ORD039",
+    "skuId": "SKU004",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD039-L6",
+    "orderId": "ORD039",
+    "skuId": "SKU007",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD040-L1",
+    "orderId": "ORD040",
+    "skuId": "SKU010",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD040-L2",
+    "orderId": "ORD040",
+    "skuId": "SKU005",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD040-L3",
+    "orderId": "ORD040",
+    "skuId": "SKU012",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD040-L4",
+    "orderId": "ORD040",
+    "skuId": "SKU014",
+    "orderedQty": 33,
+    "pickedQty": 33,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD040-L5",
+    "orderId": "ORD040",
+    "skuId": "SKU001",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD040-L6",
+    "orderId": "ORD040",
+    "skuId": "SKU008",
+    "orderedQty": 17,
+    "pickedQty": 17,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD040-L7",
+    "orderId": "ORD040",
+    "skuId": "SKU016",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD041-L1",
+    "orderId": "ORD041",
+    "skuId": "SKU013",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD041-L2",
+    "orderId": "ORD041",
+    "skuId": "SKU006",
+    "orderedQty": 48,
+    "pickedQty": 48,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD041-L3",
+    "orderId": "ORD041",
+    "skuId": "SKU003",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD041-L4",
+    "orderId": "ORD041",
+    "skuId": "SKU017",
+    "orderedQty": 12,
+    "pickedQty": 12,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD041-L5",
+    "orderId": "ORD041",
+    "skuId": "SKU009",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD042-L1",
+    "orderId": "ORD042",
+    "skuId": "SKU002",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD042-L2",
+    "orderId": "ORD042",
+    "skuId": "SKU018",
+    "orderedQty": 27,
+    "pickedQty": 27,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD042-L3",
+    "orderId": "ORD042",
+    "skuId": "SKU011",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD042-L4",
+    "orderId": "ORD042",
+    "skuId": "SKU004",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD042-L5",
+    "orderId": "ORD042",
+    "skuId": "SKU015",
+    "orderedQty": 20,
+    "pickedQty": 20,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD042-L6",
+    "orderId": "ORD042",
+    "skuId": "SKU007",
+    "orderedQty": 10,
+    "pickedQty": 10,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD043-L1",
+    "orderId": "ORD043",
+    "skuId": "SKU010",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD043-L2",
+    "orderId": "ORD043",
+    "skuId": "SKU014",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD043-L3",
+    "orderId": "ORD043",
+    "skuId": "SKU005",
+    "orderedQty": 39,
+    "pickedQty": 39,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD043-L4",
+    "orderId": "ORD043",
+    "skuId": "SKU012",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD043-L5",
+    "orderId": "ORD043",
+    "skuId": "SKU001",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD043-L6",
+    "orderId": "ORD043",
+    "skuId": "SKU008",
+    "orderedQty": 13,
+    "pickedQty": 13,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD043-L7",
+    "orderId": "ORD043",
+    "skuId": "SKU016",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD044-L1",
+    "orderId": "ORD044",
+    "skuId": "SKU006",
+    "orderedQty": 30,
+    "pickedQty": 30,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD044-L2",
+    "orderId": "ORD044",
+    "skuId": "SKU013",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD044-L3",
+    "orderId": "ORD044",
+    "skuId": "SKU003",
+    "orderedQty": 11,
+    "pickedQty": 11,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD044-L4",
+    "orderId": "ORD044",
+    "skuId": "SKU017",
+    "orderedQty": 23,
+    "pickedQty": 23,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD044-L5",
+    "orderId": "ORD044",
+    "skuId": "SKU009",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD045-L1",
+    "orderId": "ORD045",
+    "skuId": "SKU018",
+    "orderedQty": 12,
+    "pickedQty": 12,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD045-L2",
+    "orderId": "ORD045",
+    "skuId": "SKU002",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD045-L3",
+    "orderId": "ORD045",
+    "skuId": "SKU011",
+    "orderedQty": 45,
+    "pickedQty": 45,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD045-L4",
+    "orderId": "ORD045",
+    "skuId": "SKU004",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD045-L5",
+    "orderId": "ORD045",
+    "skuId": "SKU015",
+    "orderedQty": 16,
+    "pickedQty": 16,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD045-L6",
+    "orderId": "ORD045",
+    "skuId": "SKU007",
+    "orderedQty": 22,
+    "pickedQty": 22,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD046-L1",
+    "orderId": "ORD046",
+    "skuId": "SKU010",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD046-L2",
+    "orderId": "ORD046",
+    "skuId": "SKU005",
+    "orderedQty": 27,
+    "pickedQty": 27,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD046-L3",
+    "orderId": "ORD046",
+    "skuId": "SKU014",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD046-L4",
+    "orderId": "ORD046",
+    "skuId": "SKU012",
+    "orderedQty": 9,
+    "pickedQty": 9,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD046-L5",
+    "orderId": "ORD046",
+    "skuId": "SKU001",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD046-L6",
+    "orderId": "ORD046",
+    "skuId": "SKU008",
+    "orderedQty": 19,
+    "pickedQty": 19,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD046-L7",
+    "orderId": "ORD046",
+    "skuId": "SKU016",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD047-L1",
+    "orderId": "ORD047",
+    "skuId": "SKU013",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD047-L2",
+    "orderId": "ORD047",
+    "skuId": "SKU006",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD047-L3",
+    "orderId": "ORD047",
+    "skuId": "SKU003",
+    "orderedQty": 14,
+    "pickedQty": 14,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD047-L4",
+    "orderId": "ORD047",
+    "skuId": "SKU017",
+    "orderedQty": 7,
+    "pickedQty": 7,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD047-L5",
+    "orderId": "ORD047",
+    "skuId": "SKU009",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD048-L1",
+    "orderId": "ORD048",
+    "skuId": "SKU018",
+    "orderedQty": 36,
+    "pickedQty": 36,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD048-L2",
+    "orderId": "ORD048",
+    "skuId": "SKU002",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD048-L3",
+    "orderId": "ORD048",
+    "skuId": "SKU011",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD048-L4",
+    "orderId": "ORD048",
+    "skuId": "SKU004",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD048-L5",
+    "orderId": "ORD048",
+    "skuId": "SKU015",
+    "orderedQty": 17,
+    "pickedQty": 17,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD048-L6",
+    "orderId": "ORD048",
+    "skuId": "SKU007",
+    "orderedQty": 12,
+    "pickedQty": 12,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD049-L1",
+    "orderId": "ORD049",
+    "skuId": "SKU010",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD049-L2",
+    "orderId": "ORD049",
+    "skuId": "SKU014",
+    "orderedQty": 42,
+    "pickedQty": 42,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD049-L3",
+    "orderId": "ORD049",
+    "skuId": "SKU005",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD049-L4",
+    "orderId": "ORD049",
+    "skuId": "SKU012",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD049-L5",
+    "orderId": "ORD049",
+    "skuId": "SKU001",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD049-L6",
+    "orderId": "ORD049",
+    "skuId": "SKU008",
+    "orderedQty": 10,
+    "pickedQty": 10,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD049-L7",
+    "orderId": "ORD049",
+    "skuId": "SKU016",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD050-L1",
+    "orderId": "ORD050",
+    "skuId": "SKU006",
+    "orderedQty": 33,
+    "pickedQty": 33,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD050-L2",
+    "orderId": "ORD050",
+    "skuId": "SKU013",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD050-L3",
+    "orderId": "ORD050",
+    "skuId": "SKU003",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD050-L4",
+    "orderId": "ORD050",
+    "skuId": "SKU017",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD050-L5",
+    "orderId": "ORD050",
+    "skuId": "SKU009",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD051-L1",
+    "orderId": "ORD051",
+    "skuId": "SKU018",
+    "orderedQty": 48,
+    "pickedQty": 48,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD051-L2",
+    "orderId": "ORD051",
+    "skuId": "SKU002",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD051-L3",
+    "orderId": "ORD051",
+    "skuId": "SKU011",
+    "orderedQty": 27,
+    "pickedQty": 27,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD051-L4",
+    "orderId": "ORD051",
+    "skuId": "SKU004",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD051-L5",
+    "orderId": "ORD051",
+    "skuId": "SKU015",
+    "orderedQty": 19,
+    "pickedQty": 19,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD051-L6",
+    "orderId": "ORD051",
+    "skuId": "SKU007",
+    "orderedQty": 8,
+    "pickedQty": 8,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD052-L1",
+    "orderId": "ORD052",
+    "skuId": "SKU010",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD052-L2",
+    "orderId": "ORD052",
+    "skuId": "SKU005",
+    "orderedQty": 30,
+    "pickedQty": 30,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD052-L3",
+    "orderId": "ORD052",
+    "skuId": "SKU014",
+    "orderedQty": 36,
+    "pickedQty": 36,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD052-L4",
+    "orderId": "ORD052",
+    "skuId": "SKU012",
+    "orderedQty": 13,
+    "pickedQty": 13,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD052-L5",
+    "orderId": "ORD052",
+    "skuId": "SKU001",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD052-L6",
+    "orderId": "ORD052",
+    "skuId": "SKU008",
+    "orderedQty": 22,
+    "pickedQty": 22,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD052-L7",
+    "orderId": "ORD052",
+    "skuId": "SKU016",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD053-L1",
+    "orderId": "ORD053",
+    "skuId": "SKU013",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD053-L2",
+    "orderId": "ORD053",
+    "skuId": "SKU006",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD053-L3",
+    "orderId": "ORD053",
+    "skuId": "SKU003",
+    "orderedQty": 16,
+    "pickedQty": 16,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD053-L4",
+    "orderId": "ORD053",
+    "skuId": "SKU017",
+    "orderedQty": 11,
+    "pickedQty": 11,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD053-L5",
+    "orderId": "ORD053",
+    "skuId": "SKU009",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD054-L1",
+    "orderId": "ORD054",
+    "skuId": "SKU018",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD054-L2",
+    "orderId": "ORD054",
+    "skuId": "SKU002",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD054-L3",
+    "orderId": "ORD054",
+    "skuId": "SKU011",
+    "orderedQty": 39,
+    "pickedQty": 39,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD054-L4",
+    "orderId": "ORD054",
+    "skuId": "SKU004",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD054-L5",
+    "orderId": "ORD054",
+    "skuId": "SKU015",
+    "orderedQty": 23,
+    "pickedQty": 23,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD054-L6",
+    "orderId": "ORD054",
+    "skuId": "SKU007",
+    "orderedQty": 14,
+    "pickedQty": 14,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD055-L1",
+    "orderId": "ORD055",
+    "skuId": "SKU010",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD055-L2",
+    "orderId": "ORD055",
+    "skuId": "SKU014",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD055-L3",
+    "orderId": "ORD055",
+    "skuId": "SKU005",
+    "orderedQty": 45,
+    "pickedQty": 45,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD055-L4",
+    "orderId": "ORD055",
+    "skuId": "SKU012",
+    "orderedQty": 19,
+    "pickedQty": 19,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD055-L5",
+    "orderId": "ORD055",
+    "skuId": "SKU001",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD055-L6",
+    "orderId": "ORD055",
+    "skuId": "SKU008",
+    "orderedQty": 6,
+    "pickedQty": 6,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD055-L7",
+    "orderId": "ORD055",
+    "skuId": "SKU016",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD056-L1",
+    "orderId": "ORD056",
+    "skuId": "SKU006",
+    "orderedQty": 12,
+    "pickedQty": 12,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD056-L2",
+    "orderId": "ORD056",
+    "skuId": "SKU013",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD056-L3",
+    "orderId": "ORD056",
+    "skuId": "SKU003",
+    "orderedQty": 20,
+    "pickedQty": 20,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD056-L4",
+    "orderId": "ORD056",
+    "skuId": "SKU017",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD056-L5",
+    "orderId": "ORD056",
+    "skuId": "SKU009",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD057-L1",
+    "orderId": "ORD057",
+    "skuId": "SKU018",
+    "orderedQty": 30,
+    "pickedQty": 30,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD057-L2",
+    "orderId": "ORD057",
+    "skuId": "SKU002",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD057-L3",
+    "orderId": "ORD057",
+    "skuId": "SKU011",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD057-L4",
+    "orderId": "ORD057",
+    "skuId": "SKU004",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD057-L5",
+    "orderId": "ORD057",
+    "skuId": "SKU015",
+    "orderedQty": 12,
+    "pickedQty": 12,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD057-L6",
+    "orderId": "ORD057",
+    "skuId": "SKU007",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD058-L1",
+    "orderId": "ORD058",
+    "skuId": "SKU010",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD058-L2",
+    "orderId": "ORD058",
+    "skuId": "SKU005",
+    "orderedQty": 33,
+    "pickedQty": 33,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD058-L3",
+    "orderId": "ORD058",
+    "skuId": "SKU014",
+    "orderedQty": 27,
+    "pickedQty": 27,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD058-L4",
+    "orderId": "ORD058",
+    "skuId": "SKU012",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD058-L5",
+    "orderId": "ORD058",
+    "skuId": "SKU001",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD058-L6",
+    "orderId": "ORD058",
+    "skuId": "SKU008",
+    "orderedQty": 9,
+    "pickedQty": 9,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD058-L7",
+    "orderId": "ORD058",
+    "skuId": "SKU016",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD059-L1",
+    "orderId": "ORD059",
+    "skuId": "SKU013",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD059-L2",
+    "orderId": "ORD059",
+    "skuId": "SKU006",
+    "orderedQty": 48,
+    "pickedQty": 48,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD059-L3",
+    "orderId": "ORD059",
+    "skuId": "SKU003",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD059-L4",
+    "orderId": "ORD059",
+    "skuId": "SKU017",
+    "orderedQty": 13,
+    "pickedQty": 13,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD059-L5",
+    "orderId": "ORD059",
+    "skuId": "SKU009",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD060-L1",
+    "orderId": "ORD060",
+    "skuId": "SKU018",
+    "orderedQty": 42,
+    "pickedQty": 42,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD060-L2",
+    "orderId": "ORD060",
+    "skuId": "SKU002",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD060-L3",
+    "orderId": "ORD060",
+    "skuId": "SKU011",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD060-L4",
+    "orderId": "ORD060",
+    "skuId": "SKU004",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD060-L5",
+    "orderId": "ORD060",
+    "skuId": "SKU015",
+    "orderedQty": 10,
+    "pickedQty": 10,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD060-L6",
+    "orderId": "ORD060",
+    "skuId": "SKU007",
+    "orderedQty": 16,
+    "pickedQty": 16,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD061-L1",
+    "orderId": "ORD061",
+    "skuId": "SKU010",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD061-L2",
+    "orderId": "ORD061",
+    "skuId": "SKU014",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD061-L3",
+    "orderId": "ORD061",
+    "skuId": "SKU005",
+    "orderedQty": 36,
+    "pickedQty": 36,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD061-L4",
+    "orderId": "ORD061",
+    "skuId": "SKU012",
+    "orderedQty": 22,
+    "pickedQty": 22,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD061-L5",
+    "orderId": "ORD061",
+    "skuId": "SKU001",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD061-L6",
+    "orderId": "ORD061",
+    "skuId": "SKU008",
+    "orderedQty": 14,
+    "pickedQty": 14,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD061-L7",
+    "orderId": "ORD061",
+    "skuId": "SKU016",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD062-L1",
+    "orderId": "ORD062",
+    "skuId": "SKU006",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD062-L2",
+    "orderId": "ORD062",
+    "skuId": "SKU013",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD062-L3",
+    "orderId": "ORD062",
+    "skuId": "SKU003",
+    "orderedQty": 17,
+    "pickedQty": 17,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD062-L4",
+    "orderId": "ORD062",
+    "skuId": "SKU017",
+    "orderedQty": 10,
+    "pickedQty": 10,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD062-L5",
+    "orderId": "ORD062",
+    "skuId": "SKU009",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD063-L1",
+    "orderId": "ORD063",
+    "skuId": "SKU018",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD063-L2",
+    "orderId": "ORD063",
+    "skuId": "SKU002",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD063-L3",
+    "orderId": "ORD063",
+    "skuId": "SKU011",
+    "orderedQty": 33,
+    "pickedQty": 33,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD063-L4",
+    "orderId": "ORD063",
+    "skuId": "SKU004",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD063-L5",
+    "orderId": "ORD063",
+    "skuId": "SKU015",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD063-L6",
+    "orderId": "ORD063",
+    "skuId": "SKU007",
+    "orderedQty": 11,
+    "pickedQty": 11,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD064-L1",
+    "orderId": "ORD064",
+    "skuId": "SKU010",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD064-L2",
+    "orderId": "ORD064",
+    "skuId": "SKU005",
+    "orderedQty": 27,
+    "pickedQty": 27,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD064-L3",
+    "orderId": "ORD064",
+    "skuId": "SKU014",
+    "orderedQty": 45,
+    "pickedQty": 45,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD064-L4",
+    "orderId": "ORD064",
+    "skuId": "SKU012",
+    "orderedQty": 8,
+    "pickedQty": 8,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD064-L5",
+    "orderId": "ORD064",
+    "skuId": "SKU001",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD064-L6",
+    "orderId": "ORD064",
+    "skuId": "SKU008",
+    "orderedQty": 20,
+    "pickedQty": 20,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD064-L7",
+    "orderId": "ORD064",
+    "skuId": "SKU016",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD065-L1",
+    "orderId": "ORD065",
+    "skuId": "SKU013",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD065-L2",
+    "orderId": "ORD065",
+    "skuId": "SKU006",
+    "orderedQty": 39,
+    "pickedQty": 39,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD065-L3",
+    "orderId": "ORD065",
+    "skuId": "SKU003",
+    "orderedQty": 23,
+    "pickedQty": 23,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD065-L4",
+    "orderId": "ORD065",
+    "skuId": "SKU017",
+    "orderedQty": 16,
+    "pickedQty": 16,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD065-L5",
+    "orderId": "ORD065",
+    "skuId": "SKU009",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD066-L1",
+    "orderId": "ORD066",
+    "skuId": "SKU018",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD066-L2",
+    "orderId": "ORD066",
+    "skuId": "SKU002",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD066-L3",
+    "orderId": "ORD066",
+    "skuId": "SKU011",
+    "orderedQty": 12,
+    "pickedQty": 12,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD066-L4",
+    "orderId": "ORD066",
+    "skuId": "SKU004",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD066-L5",
+    "orderId": "ORD066",
+    "skuId": "SKU015",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD066-L6",
+    "orderId": "ORD066",
+    "skuId": "SKU007",
+    "orderedQty": 19,
+    "pickedQty": 19,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD067-L1",
+    "orderId": "ORD067",
+    "skuId": "SKU010",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD067-L2",
+    "orderId": "ORD067",
+    "skuId": "SKU014",
+    "orderedQty": 30,
+    "pickedQty": 30,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD067-L3",
+    "orderId": "ORD067",
+    "skuId": "SKU005",
+    "orderedQty": 12,
+    "pickedQty": 12,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD067-L4",
+    "orderId": "ORD067",
+    "skuId": "SKU012",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD067-L5",
+    "orderId": "ORD067",
+    "skuId": "SKU001",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD067-L6",
+    "orderId": "ORD067",
+    "skuId": "SKU008",
+    "orderedQty": 17,
+    "pickedQty": 17,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD067-L7",
+    "orderId": "ORD067",
+    "skuId": "SKU016",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD068-L1",
+    "orderId": "ORD068",
+    "skuId": "SKU013",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD068-L2",
+    "orderId": "ORD068",
+    "skuId": "SKU006",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD068-L3",
+    "orderId": "ORD068",
+    "skuId": "SKU003",
+    "orderedQty": 10,
+    "pickedQty": 10,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD068-L4",
+    "orderId": "ORD068",
+    "skuId": "SKU017",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD068-L5",
+    "orderId": "ORD068",
+    "skuId": "SKU009",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD069-L1",
+    "orderId": "ORD069",
+    "skuId": "SKU018",
+    "orderedQty": 36,
+    "pickedQty": 36,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD069-L2",
+    "orderId": "ORD069",
+    "skuId": "SKU002",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD069-L3",
+    "orderId": "ORD069",
+    "skuId": "SKU011",
+    "orderedQty": 27,
+    "pickedQty": 27,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD069-L4",
+    "orderId": "ORD069",
+    "skuId": "SKU004",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD069-L5",
+    "orderId": "ORD069",
+    "skuId": "SKU015",
+    "orderedQty": 13,
+    "pickedQty": 13,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD069-L6",
+    "orderId": "ORD069",
+    "skuId": "SKU007",
+    "orderedQty": 22,
+    "pickedQty": 22,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD070-L1",
+    "orderId": "ORD070",
+    "skuId": "SKU010",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD070-L2",
+    "orderId": "ORD070",
+    "skuId": "SKU005",
+    "orderedQty": 42,
+    "pickedQty": 42,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD070-L3",
+    "orderId": "ORD070",
+    "skuId": "SKU014",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD070-L4",
+    "orderId": "ORD070",
+    "skuId": "SKU012",
+    "orderedQty": 11,
+    "pickedQty": 11,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD070-L5",
+    "orderId": "ORD070",
+    "skuId": "SKU001",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD070-L6",
+    "orderId": "ORD070",
+    "skuId": "SKU008",
+    "orderedQty": 16,
+    "pickedQty": 16,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD070-L7",
+    "orderId": "ORD070",
+    "skuId": "SKU016",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD071-L1",
+    "orderId": "ORD071",
+    "skuId": "SKU013",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD071-L2",
+    "orderId": "ORD071",
+    "skuId": "SKU006",
+    "orderedQty": 33,
+    "pickedQty": 33,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD071-L3",
+    "orderId": "ORD071",
+    "skuId": "SKU003",
+    "orderedQty": 19,
+    "pickedQty": 19,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD071-L4",
+    "orderId": "ORD071",
+    "skuId": "SKU017",
+    "orderedQty": 14,
+    "pickedQty": 14,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD071-L5",
+    "orderId": "ORD071",
+    "skuId": "SKU009",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD072-L1",
+    "orderId": "ORD072",
+    "skuId": "SKU018",
+    "orderedQty": 27,
+    "pickedQty": 27,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD072-L2",
+    "orderId": "ORD072",
+    "skuId": "SKU002",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD072-L3",
+    "orderId": "ORD072",
+    "skuId": "SKU011",
+    "orderedQty": 45,
+    "pickedQty": 45,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD072-L4",
+    "orderId": "ORD072",
+    "skuId": "SKU004",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD072-L5",
+    "orderId": "ORD072",
+    "skuId": "SKU015",
+    "orderedQty": 20,
+    "pickedQty": 20,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD072-L6",
+    "orderId": "ORD072",
+    "skuId": "SKU007",
+    "orderedQty": 8,
+    "pickedQty": 8,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD073-L1",
+    "orderId": "ORD073",
+    "skuId": "SKU010",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD073-L2",
+    "orderId": "ORD073",
+    "skuId": "SKU005",
+    "orderedQty": 21,
+    "pickedQty": 21,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD073-L3",
+    "orderId": "ORD073",
+    "skuId": "SKU014",
+    "orderedQty": 39,
+    "pickedQty": 39,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD073-L4",
+    "orderId": "ORD073",
+    "skuId": "SKU012",
+    "orderedQty": 18,
+    "pickedQty": 18,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD073-L5",
+    "orderId": "ORD073",
+    "skuId": "SKU001",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD073-L6",
+    "orderId": "ORD073",
+    "skuId": "SKU008",
+    "orderedQty": 12,
+    "pickedQty": 12,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD073-L7",
+    "orderId": "ORD073",
+    "skuId": "SKU016",
+    "orderedQty": 4,
+    "pickedQty": 4,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD074-L1",
+    "orderId": "ORD074",
+    "skuId": "SKU013",
+    "orderedQty": 1,
+    "pickedQty": 1,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD074-L2",
+    "orderId": "ORD074",
+    "skuId": "SKU006",
+    "orderedQty": 48,
+    "pickedQty": 48,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD074-L3",
+    "orderId": "ORD074",
+    "skuId": "SKU003",
+    "orderedQty": 15,
+    "pickedQty": 15,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD074-L4",
+    "orderId": "ORD074",
+    "skuId": "SKU017",
+    "orderedQty": 9,
+    "pickedQty": 9,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD074-L5",
+    "orderId": "ORD074",
+    "skuId": "SKU009",
+    "orderedQty": 3,
+    "pickedQty": 3,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD075-L1",
+    "orderId": "ORD075",
+    "skuId": "SKU018",
+    "orderedQty": 30,
+    "pickedQty": 30,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD075-L2",
+    "orderId": "ORD075",
+    "skuId": "SKU002",
+    "orderedQty": 2,
+    "pickedQty": 2,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD075-L3",
+    "orderId": "ORD075",
+    "skuId": "SKU011",
+    "orderedQty": 36,
+    "pickedQty": 36,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": true
+  },
+  {
+    "lineId": "ORD075-L4",
+    "orderId": "ORD075",
+    "skuId": "SKU004",
+    "orderedQty": 5,
+    "pickedQty": 5,
+    "checkedQty": 0,
+    "requiresSeries": true,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD075-L5",
+    "orderId": "ORD075",
+    "skuId": "SKU015",
+    "orderedQty": 24,
+    "pickedQty": 24,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  },
+  {
+    "lineId": "ORD075-L6",
+    "orderId": "ORD075",
+    "skuId": "SKU007",
+    "orderedQty": 13,
+    "pickedQty": 13,
+    "checkedQty": 0,
+    "requiresSeries": false,
+    "requiresLot": false
+  }
+]

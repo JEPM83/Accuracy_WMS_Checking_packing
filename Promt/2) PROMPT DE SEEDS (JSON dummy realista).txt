@@ -1,0 +1,39 @@
+Genera los archivos JSON seeds para un prototipo WMS de packing/chequeo.
+
+Requisitos:
+- Total 6 pedidos demo:
+  - 2 pedidos simples (sin series, sin lote)
+  - 2 pedidos con series
+  - 2 pedidos con lote
+- Cada pedido con 5 a 8 líneas.
+- Todos los pedidos empiezan con CheckedQty = 0, sin scans, sin incidencias.
+- Multi-sociedad: distribuir pedidos en SBO_OPERACIONES, SBO_AMBAR, SBO_ACCURACY.
+- Multi-cliente: mínimo 3 clientes distintos. Un cliente puede aparecer en más de una sociedad.
+- ORDER_ID varchar(30), SKU varchar(30), SERIE varchar(50), LOTE formato libre (incluye ejemplo juliano y gregoriano).
+- Incluir catálogo SKU (sku_catalog.json):
+  - para cada SKU: description, weightPerEA (kg), flags requiresSeries/requiresLot, eans[] (algunos SKUs con EAN duplicado para disparar modal), UOM conversion map:
+    - EA:1 obligatorio
+    - PACK6/PACK12 y MASTER24/MASTER48 según SKU (variado)
+- Líneas (order_lines.json) deben incluir:
+  - orderId, lineId, skuId
+  - orderedQty, pickedQty (picked puede ser menor que ordered en algunas líneas)
+  - checkedQty=0
+  - requiresSeries/lot según catálogo
+- Labels iniciales vacíos (labels.json) puede estar vacío o con 1 label abierto por pedido (elige lo que haga más fácil la demo; si creas labels iniciales deben estar OPEN y sin contenido).
+- users.json: crear 3 usuarios:
+  - operario1/1234 role OPERARIO
+  - supervisor1/1234 role SUPERVISOR
+  - admin1/1234 role ADMIN
+- user_clients.json: asignar clientes por usuario (operario1 solo 1-2 clientes; supervisor1 y admin1 todos).
+- clients.json: incluir nombre, RUC opcional, direcciones (1 por pedido).
+
+Devuelve el contenido de todos los JSON con rutas sugeridas:
+- /src/seeds/users.json
+- /src/seeds/user_clients.json
+- /src/seeds/clients.json
+- /src/seeds/orders.json
+- /src/seeds/order_lines.json
+- /src/seeds/labels.json
+- /src/seeds/scans.json
+- /src/seeds/incidents.json
+- /src/seeds/sku_catalog.json

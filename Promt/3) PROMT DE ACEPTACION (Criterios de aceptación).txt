@@ -1,0 +1,269 @@
+Actúa como QA Lead + Product Owner técnico.
+
+Tu tarea es:
+1) Verificar que el prototipo WMS de Packing/Chequeo cumple TODOS los criterios funcionales.
+2) Ajustar o completar el código si algo no cumple los criterios.
+3) NO agregar funcionalidades nuevas fuera del alcance definido.
+4) Priorizar exactitud del flujo operativo por encima de estética.
+
+=====================================================
+A. CRITERIOS GENERALES DE ACEPTACIÓN
+=====================================================
+
+A1. El sistema debe funcionar completamente OFFLINE.
+A2. Toda la información debe persistir al refrescar el navegador (localStorage o IndexedDB).
+A3. El sistema debe iniciar con datos desde JSON seeds si no existe data previa.
+A4. Debe existir un botón visible “Reset demo data” que limpie el storage y recargue seeds.
+A5. El sistema NO debe usar backend ni servicios externos.
+A6. Toda la UI debe estar en ESPAÑOL.
+A7. El sistema debe ser usable en PC y tablet (responsive).
+
+=====================================================
+B. LOGIN / SEGURIDAD
+=====================================================
+
+B1. Login debe solicitar:
+    - Usuario
+    - Clave
+    - Sociedad (dropdown: SBO_OPERACIONES, SBO_AMBAR, SBO_ACCURACY)
+
+B2. El usuario solo debe ver:
+    - Pedidos de la sociedad seleccionada
+    - Clientes asignados a ese usuario (user_clients.json)
+
+B3. Usuarios demo obligatorios:
+    - operario1 / 1234 → OPERARIO
+    - supervisor1 / 1234 → SUPERVISOR
+    - admin1 / 1234 → ADMIN
+
+B4. El rol debe impactar acciones:
+    - OPERARIO no puede reabrir pedidos
+    - SUPERVISOR y ADMIN sí pueden
+
+=====================================================
+C. LISTA DE PEDIDOS (OUTBOUND)
+=====================================================
+
+C1. La vista debe mostrar:
+    - OrderId
+    - Cliente
+    - Sociedad
+    - Estado (RECEP / CHK / CONFIRMADO WMS)
+    - Progreso (Checked / Picked + %)
+    - Indicador visual de incidencias (icono o color)
+
+C2. Estados:
+    - RECEP → sin scans
+    - CHK → al primer scan
+    - CONFIRMADO WMS → al cerrar packing
+
+C3. Debe permitir:
+    - Filtrar por cliente
+    - Filtrar por rango de fechas
+    - Abrir detalle del pedido
+
+=====================================================
+D. PACKING / CHEQUEO (OUTBOUND DETAIL)
+=====================================================
+
+D1. Al ingresar al detalle del pedido debe mostrarse:
+    - Cabecera del pedido
+    - Estación/Mesa (editable y persistente)
+    - Líneas del pedido con:
+        * SKU
+        * OrderedQty
+        * PickedQty
+        * CheckedQty
+        * Semáforo (verde / amarillo / rojo)
+
+D2. Regla de semáforo:
+    - Verde: Checked == Picked
+    - Amarillo: Checked != Picked
+    - Rojo: (Picked - Checked) >= 1 o faltante reportado
+
+-----------------------------------------------------
+D3. Escaneo SKU / EAN
+-----------------------------------------------------
+
+D3.1. El usuario puede escanear:
+    - EAN
+    - SKU interno
+
+D3.2. Si EAN mapea a más de un SKU:
+    - Mostrar modal solicitando SKU interno
+
+D3.3. TRUEQUE:
+    - Si el SKU (o SKU+LOTE) NO pertenece al pedido
+    - Debe registrarse incidencia TRUEQUE
+    - Mostrar alerta visual
+    - No debe incrementar CheckedQty del pedido
+
+-----------------------------------------------------
+D4. Asignación automática de línea
+-----------------------------------------------------
+
+D4.1. Si el SKU está en una sola línea → usar esa línea.
+D4.2. Si el SKU está en múltiples líneas → usar la primera con saldo pendiente (Picked - Checked > 0).
+
+-----------------------------------------------------
+D5. Series
+-----------------------------------------------------
+
+D5.1. Si el SKU requiere series:
+    - El sistema debe pedir escaneo de series una por una.
+    - Cada serie incrementa cantidad automáticamente.
+    - No se permite editar cantidad manualmente.
+    - Validar que la serie no exista globalmente.
+    - Si serie ya existe → bloquear y alertar.
+
+-----------------------------------------------------
+D6. Lote
+-----------------------------------------------------
+
+D6.1. Si el SKU requiere lote:
+    - Pedir ingreso de lote
+    - Luego pedir cantidad
+
+-----------------------------------------------------
+D7. UOM / Conversiones
+-----------------------------------------------------
+
+D7.1. Si el SKU no requiere series:
+    - Permitir editar cantidad manualmente
+    - Permitir seleccionar UOM (EA / PACK / MASTER)
+
+D7.2. La conversión debe depender del SKU.
+D7.3. Se debe permitir mezclar UOM en el mismo SKU.
+D7.4. CheckedQty debe acumularse siempre en unidad base (EA).
+
+-----------------------------------------------------
+D8. SOBRANTE
+-----------------------------------------------------
+
+D8.1. Si CheckedQty > PickedQty:
+    - Mostrar confirmación “¿Está seguro?”
+    - Requerir autorización:
+        * Supervisor/Admin → 1 click
+        * Operario → clave supervisor
+    - Registrar incidencia SOBRANTE
+    - Permitir continuar
+
+-----------------------------------------------------
+D9. FALTANTE
+-----------------------------------------------------
+
+D9.1. Debe existir botón “Reportar faltante” por línea.
+D9.2. Al presionar:
+    - Crear incidencia FALTANTE
+    - QtyFaltante = PickedQty - CheckedQty
+    - No requiere autorización
+    - Marcar línea en rojo
+
+=====================================================
+E. ETIQUETAS (BULTOS)
+=====================================================
+
+E1. Crear etiquetas manualmente.
+E2. Formato: CLIENTE-ORDERID-SEQ
+E3. Mientras pedido abierto: mostrar SEQ/?.
+E4. No permitir eliminar etiqueta si tiene scans.
+E5. Etiqueta ABIERTA:
+    - Permite scans
+    - Permite repack
+E6. Etiqueta CERRADA:
+    - No permite scans
+    - Se puede reabrir con autorización
+E7. Al reabrir:
+    - Permitir scans y repack
+    - Al volver a cerrar, reimprimir si hubo cambios
+
+-----------------------------------------------------
+E8. Repack
+-----------------------------------------------------
+
+E8.1. Solo entre etiquetas ABIERTAS.
+E8.2. Permitir repack total o parcial.
+E8.3. Registrar:
+    - Scan negativo en etiqueta origen
+    - Scan positivo en etiqueta destino
+E8.4. Repack con series:
+    - Permitir seleccionar qué series se mueven
+    - No duplicar series
+
+-----------------------------------------------------
+E9. Peso / Balanza
+-----------------------------------------------------
+
+E9.1. Al cerrar etiqueta:
+    - Mostrar modal “Leyendo balanza…”
+    - Asignar peso real automático (cercano al teórico)
+E9.2. Permitir editar peso real con autorización.
+E9.3. Si diferencia supera umbral:
+    - Crear incidencia DIF_PESO
+
+=====================================================
+F. CIERRE DE PEDIDO
+=====================================================
+
+F1. Al cerrar pedido:
+    - Cambiar estado a CONFIRMADO WMS
+    - Congelar numeración SEQ/TOTAL de etiquetas
+F2. Permitir cierre con incidencias.
+F3. Operario NO puede reabrir pedido.
+F4. Supervisor/Admin sí puede reabrir pedido.
+
+=====================================================
+G. IMPRESIÓN PDF
+=====================================================
+
+G1. Generar un PDF con TODAS las etiquetas del pedido.
+G2. Tamaño etiqueta: 10x15 cm (una por página).
+G3. Incluir en cada etiqueta:
+    - LabelId
+    - OrderId
+    - Sociedad
+    - Cliente y dirección
+    - Peso teórico y real
+    - Usuario
+    - Fecha/Hora
+    - QR con JSON compacto {labelId, orderId, sociedad}
+G4. Botón visible: “Ver / Descargar PDF etiquetas”.
+
+=====================================================
+H. REPORTES
+=====================================================
+
+H1. Dashboard global de avance:
+    - Donut global Checked vs Picked
+    - Lista de pedidos con mini-donut
+    - Drill-down por pedido:
+        * Barras Picked vs Checked por línea
+        * Heatmap por etiqueta (% avance)
+
+H2. Reporte de incidencias:
+    - Gráfico por tipo (TRUEQUE, SOBRANTE, FALTANTE, DIF_PESO)
+    - Tabla detallada con filtros
+    - Exportar CSV
+
+=====================================================
+I. VALIDACIONES FINALES
+=====================================================
+
+I1. No debe existir ningún flujo que permita:
+    - Duplicar series
+    - Chequear SKU inexistente sin incidencia
+    - Eliminar etiqueta con contenido
+I2. El sistema debe ser consistente tras:
+    - Refresh
+    - Cambio de pedido
+    - Cambio de usuario
+I3. Todo evento importante debe dar feedback visual.
+
+=====================================================
+ENTREGABLE FINAL
+=====================================================
+
+- Código ajustado que cumpla todos los criterios.
+- README con pasos de ejecución.
+- Explicación breve de flujos principales.
+- No agregar módulos fuera del alcance definido.
