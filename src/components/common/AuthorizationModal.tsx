@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Modal from './Modal'
 import Input from './Input'
 import Button from './Button'
@@ -21,6 +21,17 @@ export default function AuthorizationModal({
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
+  const passwordInputRef = useRef<HTMLInputElement>(null)
+
+  // Auto-focus en el campo de contraseña cuando se abre el modal
+  useEffect(() => {
+    if (isOpen && passwordInputRef.current) {
+      // Usar setTimeout para asegurar que el modal esté completamente renderizado
+      setTimeout(() => {
+        passwordInputRef.current?.focus()
+      }, 100)
+    }
+  }, [isOpen])
 
   const handleSubmit = async () => {
     if (!password) {
@@ -55,7 +66,7 @@ export default function AuthorizationModal({
   }
 
   return (
-    <Modal isOpen={isOpen} onClose={handleCancel} title="Autorización Requerida" size="sm">
+    <Modal isOpen={isOpen} onClose={handleCancel} title="Autorización Requerida" size="sm" zIndexOffset={100}>
       <div className="space-y-4">
         <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3">
           <p className="text-sm text-yellow-800">
@@ -67,6 +78,7 @@ export default function AuthorizationModal({
         </div>
 
         <Input
+          ref={passwordInputRef}
           type="password"
           label="Contraseña de Supervisor/Admin"
           value={password}

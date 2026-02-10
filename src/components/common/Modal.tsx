@@ -8,6 +8,7 @@ interface ModalProps {
   size?: 'sm' | 'md' | 'lg' | 'xl' | 'full'
   showCloseButton?: boolean
   allowBodyScroll?: boolean
+  zIndexOffset?: number
 }
 
 export default function Modal({
@@ -18,6 +19,7 @@ export default function Modal({
   size = 'md',
   showCloseButton = true,
   allowBodyScroll = false,
+  zIndexOffset = 0,
 }: ModalProps) {
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
@@ -63,16 +65,20 @@ export default function Modal({
     full: 'max-w-7xl',
   }
 
+  const baseZIndex = 100 + zIndexOffset
+
   return (
-    <div className="fixed inset-0 z-[100] overflow-y-auto">
+    <div className="fixed inset-0 overflow-y-auto" style={{ zIndex: baseZIndex }}>
       <div className="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:p-0">
         <div
-          className="fixed inset-0 z-[99] transition-opacity bg-gray-500 bg-opacity-75"
+          className="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75"
+          style={{ zIndex: baseZIndex - 1 }}
           onClick={onClose}
         ></div>
 
         <div
-          className={`relative z-[101] inline-block w-full ${sizeClasses[size]} p-6 my-8 text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl`}
+          className={`relative inline-block w-full ${sizeClasses[size]} p-6 my-8 text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl`}
+          style={{ zIndex: baseZIndex + 1 }}
         >
           <div className="flex items-center justify-between mb-4">
             <h3 className="text-xl font-bold text-gray-900">{title}</h3>

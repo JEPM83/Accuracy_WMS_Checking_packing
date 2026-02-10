@@ -64,11 +64,14 @@ export function isAuthenticated(): boolean {
 
 export async function validateSupervisorPassword(password: string): Promise<User | null> {
   return withDelay(async () => {
-    const supervisor = await db.users
-      .where('password')
-      .equals(password)
-      .and((user) => user.role === 'SUPERVISOR' || user.role === 'ADMIN')
-      .first()
+    // Buscar por rol primero (usando índice) y luego filtrar por password
+    const supervisors = await db.users
+      .where('role')
+      .anyOf(['SUPERVISOR', 'ADMIN'])
+      .toArray()
+
+    // Encontrar el supervisor/admin con la contraseña correcta
+    const supervisor = supervisors.find((user) => user.password === password)
 
     return supervisor || null
   }, DELAYS.AUTHORIZATION)
