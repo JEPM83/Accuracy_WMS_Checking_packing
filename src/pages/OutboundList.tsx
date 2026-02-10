@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from 'react'
+import { useEffect, useState, useMemo, useRef } from 'react'
 import { useAuth } from '../hooks/useAuth'
 import { getOrders } from '../services/orderService'
 import { db } from '../services/db'
@@ -26,6 +26,7 @@ export default function OutboundList() {
     fechaHasta?: string
     status?: OrderStatus
   }>({})
+  const paginationRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     loadOrders()
@@ -143,7 +144,10 @@ export default function OutboundList() {
 
   const handlePageChange = (newPage: number) => {
     setCurrentPage(newPage)
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    // Hacer scroll hacia el paginado para mantener visibilidad
+    setTimeout(() => {
+      paginationRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+    }, 100)
   }
 
   if (!session) return null
@@ -483,7 +487,7 @@ export default function OutboundList() {
 
           {/* Controles de paginación */}
           {totalPages > 1 && (
-            <div className="mt-8 bg-gradient-to-br from-white to-accuracy-light/10 rounded-xl shadow-lg border-2 border-accuracy-light/30 p-6">
+            <div ref={paginationRef} className="mt-8 bg-gradient-to-br from-white to-accuracy-light/10 rounded-xl shadow-lg border-2 border-accuracy-light/30 p-6">
               <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div className="text-sm text-accuracy-navy font-outfit">
                   <span className="font-bold">Mostrando {startIndex + 1}-{Math.min(endIndex, searchedOrders.length)}</span>
